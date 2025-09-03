@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg.pb.cc.o"
+  "CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg.pb.cc.o.d"
+  "CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg_header.pb.cc.o"
+  "CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg_header.pb.cc.o.d"
   "CMakeFiles/SecureTalk.dir/src/main.cpp.o"
   "CMakeFiles/SecureTalk.dir/src/main.cpp.o.d"
   "CMakeFiles/SecureTalk.dir/src/msgHandler.cpp.o"

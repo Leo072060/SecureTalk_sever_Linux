@@ -29,19 +29,19 @@ template <> struct hash<ClientID>
 {
     size_t operator()(const ClientID &c) const
     {
-        size_t h1 = std::hash<int>()(c.fd);
-        size_t h2 = std::hash<uint64_t>()(c.randomValue);
-        // Hash steady_clock::time_point as duration count
-        size_t h3 = std::hash<int64_t>()(c.acceptTime.time_since_epoch().count());
+        size_t h1 = std::hash<uint64_t>()(c.randomValue);
+        size_t h2 = std::hash<int64_t>()(c.acceptTime.time_since_epoch().count());
 
         // combine hashes
-        return h1 ^ (h2 << 1) ^ (h3 << 2);
+        return h1 ^ (h2 << 1);
     }
 };
 } // namespace std
 
 class NetworkManager
 {
+    friend void SendMessage(const ClientID &clientID, MsgType msgType, const std::string &msg);
+
   private:
     struct EpollData
     {
@@ -83,10 +83,14 @@ class NetworkManager
     void initThreadPool();
 
   private:
-    uint32_t m_port           = 0;
-    int      m_serverFd       = 0;
-    int      m_epollFd        = 0;
-    int      m_maxEpollEvents = 1024;
+    uint32_t             m_port           = 0;
+    int                  m_serverFd       = 0;
+    int                  m_epollFd        = 0;
+    int                  m_maxEpollEvents = 1024;
+    std::chrono::steady_clock::time_point lastCheckHeartbeatTime{};
+    std::chrono::seconds checkHeartbeatInterval{5};
+    std::chrono::seconds activeTimeout{15};
+    std::chrono::seconds connectionTimeout{45};
 
     std::unordered_map<ClientID, EpollData *> m_ClientIDToEpollData;
     std::unordered_map<EpollData *, ClientID> m_EpollDataToClientID;
@@ -106,5 +110,7 @@ class NetworkManager
     size_t                   m_maxWorkerThreads = 0;
     bool                     m_threadPoolStop   = false;
 };
+
+void SendMessage(const ClientID &clientID, MsgType msgType, const std::string &msg);
 
 #endif // NETWORKMANAGER_H

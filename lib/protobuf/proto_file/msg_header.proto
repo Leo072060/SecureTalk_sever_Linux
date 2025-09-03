@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+package msg_header;
+
+message IPAddress 
+{
+    string ip = 1;
+    int32 port = 2;
+}
+
+
+message ClientMsgHeader 
+{
+    int32 user_id = 2;
+    string session_id = 3;
+    int64 timestamp = 4;
+    Platform platform = 5;
+    IPAddress ip_address = 6;
+
+    enum Platform
+    {
+        UNKNOWN = 0;
+        WINDOWS = 1;
+        LINUX = 2;
+        MAC = 3;
+        ANDROID = 4;
+        IOS = 5;
+    }
+}
+
+message ServerMsgHeader 
+{
+    int64 timestamp = 4;
+}

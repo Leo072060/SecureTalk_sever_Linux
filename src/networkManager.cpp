@@ -126,13 +126,16 @@ void NetworkManager::start(uint32_t port)
         throw std::runtime_error("Failed to add server socket to epoll");
     }
 
+    // Initialize heartbeat check time
+    lastCheckHeartbeatTime = std::chrono::steady_clock::now();
+
     // Initialize thread pool
     initThreadPool();
 
     struct epoll_event events[m_maxEpollEvents];
     while (true)
     {
-        int nready = epoll_wait(m_epollFd, events, m_maxEpollEvents, -1);
+        int nready = epoll_wait(m_epollFd, events, m_maxEpollEvents, 1000);
         if (nready < 0)
         {
             if (errno == EINTR)
@@ -183,7 +186,6 @@ void NetworkManager::start(uint32_t port)
 
                 // Map ClientID to EpollData
                 ClientID ClientIDKey;
-                ClientIDKey.fd                     = clientFd;
                 ClientIDKey.acceptTime             = data->lastActiveTime;
                 ClientIDKey.randomValue            = GenerateToken();
                 m_ClientIDToEpollData[ClientIDKey] = data;
@@ -208,8 +210,8 @@ void NetworkManager::start(uint32_t port)
                 while (readMessage(data, msgType, msg))
                 {
 #ifdef DEBUG
-                    std::cout << "Received message from client (fd=" << it.first.fd << "): type=" << msgType
-                              << ", length=" << msg.size() << std::endl;
+                    std::cout << "Received message from client: type=" << msgType << ", length=" << msg.size()
+                              << std::endl;
 #endif
                     m_readMessageQueue.emplace(it.first, msgType, msg);
                     m_condition.notify_one();
@@ -230,6 +232,33 @@ void NetworkManager::start(uint32_t port)
                 sendMessage(clientID, msgType, packet);
 
                 m_sendMessageQueue.pop();
+            }
+        }
+
+        // Check heartbeats and timeouts
+        if (std::chrono::steady_clock::now() - lastCheckHeartbeatTime > checkHeartbeatInterval)
+        {
+#ifndef DEBUG
+            std::cout << "Checking heartbeats and timeouts..." << std::endl;
+#endif
+            lastCheckHeartbeatTime = std::chrono::steady_clock::now();
+
+            for (const auto &pair : m_ClientIDToEpollData)
+            {
+                const ClientID &clientID = pair.first;
+                // Check connection timeout
+                if (pair.second->lastActiveTime + connectionTimeout < std::chrono::steady_clock::now())
+                {
+                    // Close inactive connections
+                    closeConnection(pair.second);
+                    continue;
+                }
+                // Check active timeout
+                else if (pair.second->lastActiveTime + activeTimeout < std::chrono::steady_clock::now())
+                {
+                    // Send heartbeat messages
+                    SendMessage(clientID, MsgType::HEARTBEAT, "ping");
+                }
             }
         }
     }
@@ -259,6 +288,9 @@ void NetworkManager::epollCallback(epoll_event &event)
     // Handle read event
     if (event.events & EPOLLIN)
     {
+        // Update last active time
+        data->lastActiveTime = std::chrono::steady_clock::now();
+
         char buffer[4096];
         while (true)
         {
@@ -378,10 +410,9 @@ void NetworkManager::sendMessage(const ClientID &clientID, MsgType msgType, cons
         epoll_event event;
         event.events   = event.events | EPOLLOUT;
         event.data.ptr = it->second;
-        epoll_ctl(m_epollFd, EPOLL_CTL_MOD, clientID.fd, &event);
+        epoll_ctl(m_epollFd, EPOLL_CTL_MOD, it->second->fd, &event);
 #ifndef DEBUG
-        std::cout << "Sending message to client (fd=" << clientID.fd << "): type=" << msgType
-                  << ", length=" << msg.size() << std::endl;
+        std::cout << "Sending message to client: type=" << msgType << ", length=" << msg.size() << std::endl;
 #endif
     }
     // Client not found, possibly disconnected
@@ -444,5 +475,14 @@ void NetworkManager::initThreadPool()
                 }
             }
         });
+    }
+}
+
+void SendMessage(const ClientID &clientID, MsgType msgType, const std::string &msg)
+{
+    std::tuple<ClientID, MsgType, std::string> response = std::make_tuple(clientID, msgType, msg);
+    {
+        std::unique_lock<std::mutex> lock(NetworkManager::instance()->m_sendMessageQueueMutex);
+        NetworkManager::instance()->m_sendMessageQueue.push(response);
     }
 }

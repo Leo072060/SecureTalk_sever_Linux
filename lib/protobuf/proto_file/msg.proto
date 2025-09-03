@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package msg;
+
+import "msg_header.proto";
+
+message LoginRequest 
+{    
+    msg_header.ClientMsgHeader header = 1;
+    string username = 2;
+    string password = 3;
+}
+
+message LoginResponse 
+{
+    msg_header.ServerMsgHeader header = 1;
+    StateCode state = 2;
+    string session_id = 3;
+
+    enum StateCode 
+    {
+        SUCCESS = 0;
+        INVALID_CREDENTIALS = 1;
+        USER_NOT_FOUND = 2;
+    }
+}
+
+message InvalidMessageError
+{
+    msg_header.ServerMsgHeader header = 1;
+}

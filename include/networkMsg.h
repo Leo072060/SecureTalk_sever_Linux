@@ -1,16 +1,19 @@
 #ifndef NETWORKMSG_H
 #define NETWORKMSG_H
 
+#include <chrono>
+
 enum MsgType {
   SYSTEM,
   HEARTBEAT,
+  INVALID_MESSAGE_ERROR,
 
   LOGIN_REQUEST,
   LOGIN_RESPONSE,
-  LOGOUT_RESQUEST,
+  LOGOUT_REQUEST,
   LOGOUT_RESPONSE,
 
-  SIGN_UP_RESQUEST,
+  SIGN_UP_REQUEST,
   SIGN_UP_RESPONSE,
 
   CHAT_TEXT,
@@ -23,13 +26,12 @@ enum MsgType {
 
 struct ClientID
 {
-    int                                   fd;
     std::chrono::steady_clock::time_point acceptTime;
     uint64_t                              randomValue;
 
     bool operator==(const ClientID &other) const
     {
-        return fd == other.fd && acceptTime == other.acceptTime && randomValue == other.randomValue;
+        return acceptTime == other.acceptTime && randomValue == other.randomValue;
     }
 };
 

@@ -7,10 +7,6 @@
 
 #include "networkMsg.h"
 
-std::tuple<ClientID, MsgType, std::string> HandleLoginRequest(const ClientID &client, const std::string &message)
-{
-    // Handle login request
-    return std::make_tuple(client, LOGIN_RESPONSE, "Login successful");
-}
+std::tuple<ClientID, MsgType, std::string> HandleLoginRequest(const ClientID &client, const std::string &message);
 
 #endif // MSGHANDLER_H

@@ -10,16 +10,23 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # DEBUG 
 add_definitions(-DDEBUG)
 
+# Find package
+find_package(Protobuf REQUIRED)
+
 # Add include directory
 include_directories(${PROJECT_SOURCE_DIR}/include)
+include_directories(${PROTOBUF_INCLUDE_DIRS})
+include_directories(${PROJECT_SOURCE_DIR}/lib/protobuf/include)
 
 # Collect all .cpp files in src directory
 file(GLOB SRC_FILES ${PROJECT_SOURCE_DIR}/src/*.cpp)
+file(GLOB PROTO_FILES ${PROJECT_SOURCE_DIR}/lib/protobuf/src/*.cc)
 
 # Build an executable from source files
-add_executable(SecureTalk ${SRC_FILES})
+add_executable(SecureTalk ${SRC_FILES} ${PROTO_FILES})
 
 # Link against libraries from lib directory (if any)
 link_directories(${PROJECT_SOURCE_DIR}/lib)
 
 # target_link_libraries(SecureTalk protobuf Qt5::Core Qt5::Network)
+target_link_libraries(SecureTalk PRIVATE ${PROTOBUF_LIBRARIES})

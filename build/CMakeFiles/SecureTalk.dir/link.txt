@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/SecureTalk.dir/src/main.cpp.o CMakeFiles/SecureTalk.dir/src/msgHandler.cpp.o CMakeFiles/SecureTalk.dir/src/networkManager.cpp.o -o SecureTalk 
+/usr/bin/c++ CMakeFiles/SecureTalk.dir/src/main.cpp.o CMakeFiles/SecureTalk.dir/src/msgHandler.cpp.o CMakeFiles/SecureTalk.dir/src/networkManager.cpp.o CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg.pb.cc.o CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg_header.pb.cc.o -o SecureTalk  -Wl,-rpath,/usr/local/lib /usr/local/lib/libprotobuf.so 

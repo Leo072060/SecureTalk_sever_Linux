@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DDEBUG
 
-CXX_INCLUDES = -I/home/twh/code/project/SecureTalk/include
+CXX_INCLUDES = -I/home/twh/code/project/SecureTalk/include -I/home/twh/code/project/SecureTalk/lib/protobuf/include
 
 CXX_FLAGS = -std=gnu++17
 

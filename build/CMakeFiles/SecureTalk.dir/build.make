@@ -111,11 +111,41 @@ CMakeFiles/SecureTalk.dir/src/networkManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SecureTalk.dir/src/networkManager.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/twh/code/project/SecureTalk/src/networkManager.cpp -o CMakeFiles/SecureTalk.dir/src/networkManager.cpp.s
 
+CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg.pb.cc.o: CMakeFiles/SecureTalk.dir/flags.make
+CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg.pb.cc.o: /home/twh/code/project/SecureTalk/lib/protobuf/src/msg.pb.cc
+CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg.pb.cc.o: CMakeFiles/SecureTalk.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/twh/code/project/SecureTalk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg.pb.cc.o -MF CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg.pb.cc.o.d -o CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg.pb.cc.o -c /home/twh/code/project/SecureTalk/lib/protobuf/src/msg.pb.cc
+
+CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg.pb.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/twh/code/project/SecureTalk/lib/protobuf/src/msg.pb.cc > CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg.pb.cc.i
+
+CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg.pb.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/twh/code/project/SecureTalk/lib/protobuf/src/msg.pb.cc -o CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg.pb.cc.s
+
+CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg_header.pb.cc.o: CMakeFiles/SecureTalk.dir/flags.make
+CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg_header.pb.cc.o: /home/twh/code/project/SecureTalk/lib/protobuf/src/msg_header.pb.cc
+CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg_header.pb.cc.o: CMakeFiles/SecureTalk.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/twh/code/project/SecureTalk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg_header.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg_header.pb.cc.o -MF CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg_header.pb.cc.o.d -o CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg_header.pb.cc.o -c /home/twh/code/project/SecureTalk/lib/protobuf/src/msg_header.pb.cc
+
+CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg_header.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg_header.pb.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/twh/code/project/SecureTalk/lib/protobuf/src/msg_header.pb.cc > CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg_header.pb.cc.i
+
+CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg_header.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg_header.pb.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/twh/code/project/SecureTalk/lib/protobuf/src/msg_header.pb.cc -o CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg_header.pb.cc.s
+
 # Object files for target SecureTalk
 SecureTalk_OBJECTS = \
 "CMakeFiles/SecureTalk.dir/src/main.cpp.o" \
 "CMakeFiles/SecureTalk.dir/src/msgHandler.cpp.o" \
-"CMakeFiles/SecureTalk.dir/src/networkManager.cpp.o"
+"CMakeFiles/SecureTalk.dir/src/networkManager.cpp.o" \
+"CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg.pb.cc.o" \
+"CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg_header.pb.cc.o"
 
 # External object files for target SecureTalk
 SecureTalk_EXTERNAL_OBJECTS =
@@ -123,9 +153,12 @@ SecureTalk_EXTERNAL_OBJECTS =
 SecureTalk: CMakeFiles/SecureTalk.dir/src/main.cpp.o
 SecureTalk: CMakeFiles/SecureTalk.dir/src/msgHandler.cpp.o
 SecureTalk: CMakeFiles/SecureTalk.dir/src/networkManager.cpp.o
+SecureTalk: CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg.pb.cc.o
+SecureTalk: CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg_header.pb.cc.o
 SecureTalk: CMakeFiles/SecureTalk.dir/build.make
+SecureTalk: /usr/local/lib/libprotobuf.so
 SecureTalk: CMakeFiles/SecureTalk.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/twh/code/project/SecureTalk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable SecureTalk"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/twh/code/project/SecureTalk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable SecureTalk"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SecureTalk.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

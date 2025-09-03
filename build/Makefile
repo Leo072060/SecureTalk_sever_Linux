@@ -129,6 +129,54 @@ SecureTalk/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecureTalk.dir/build.make CMakeFiles/SecureTalk.dir/build
 .PHONY : SecureTalk/fast
 
+lib/protobuf/src/msg.pb.o: lib/protobuf/src/msg.pb.cc.o
+.PHONY : lib/protobuf/src/msg.pb.o
+
+# target to build an object file
+lib/protobuf/src/msg.pb.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecureTalk.dir/build.make CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg.pb.cc.o
+.PHONY : lib/protobuf/src/msg.pb.cc.o
+
+lib/protobuf/src/msg.pb.i: lib/protobuf/src/msg.pb.cc.i
+.PHONY : lib/protobuf/src/msg.pb.i
+
+# target to preprocess a source file
+lib/protobuf/src/msg.pb.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecureTalk.dir/build.make CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg.pb.cc.i
+.PHONY : lib/protobuf/src/msg.pb.cc.i
+
+lib/protobuf/src/msg.pb.s: lib/protobuf/src/msg.pb.cc.s
+.PHONY : lib/protobuf/src/msg.pb.s
+
+# target to generate assembly for a file
+lib/protobuf/src/msg.pb.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecureTalk.dir/build.make CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg.pb.cc.s
+.PHONY : lib/protobuf/src/msg.pb.cc.s
+
+lib/protobuf/src/msg_header.pb.o: lib/protobuf/src/msg_header.pb.cc.o
+.PHONY : lib/protobuf/src/msg_header.pb.o
+
+# target to build an object file
+lib/protobuf/src/msg_header.pb.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecureTalk.dir/build.make CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg_header.pb.cc.o
+.PHONY : lib/protobuf/src/msg_header.pb.cc.o
+
+lib/protobuf/src/msg_header.pb.i: lib/protobuf/src/msg_header.pb.cc.i
+.PHONY : lib/protobuf/src/msg_header.pb.i
+
+# target to preprocess a source file
+lib/protobuf/src/msg_header.pb.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecureTalk.dir/build.make CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg_header.pb.cc.i
+.PHONY : lib/protobuf/src/msg_header.pb.cc.i
+
+lib/protobuf/src/msg_header.pb.s: lib/protobuf/src/msg_header.pb.cc.s
+.PHONY : lib/protobuf/src/msg_header.pb.s
+
+# target to generate assembly for a file
+lib/protobuf/src/msg_header.pb.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SecureTalk.dir/build.make CMakeFiles/SecureTalk.dir/lib/protobuf/src/msg_header.pb.cc.s
+.PHONY : lib/protobuf/src/msg_header.pb.cc.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -210,6 +258,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SecureTalk"
+	@echo "... lib/protobuf/src/msg.pb.o"
+	@echo "... lib/protobuf/src/msg.pb.i"
+	@echo "... lib/protobuf/src/msg.pb.s"
+	@echo "... lib/protobuf/src/msg_header.pb.o"
+	@echo "... lib/protobuf/src/msg_header.pb.i"
+	@echo "... lib/protobuf/src/msg_header.pb.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
