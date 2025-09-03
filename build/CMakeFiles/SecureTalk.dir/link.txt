@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/SecureTalk.dir/src/main.cpp.o CMakeFiles/SecureTalk.dir/src/msgHandler.cpp.o CMakeFiles/SecureTalk.dir/src/networkManager.cpp.o -o SecureTalk 
