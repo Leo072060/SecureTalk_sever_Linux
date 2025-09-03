@@ -4,6 +4,8 @@
 #include "msg.pb.h"
 #include "networkMsg.h"
 
+#include <iostream>
+
 msg_header::ServerMsgHeader GetServerMsgHeader()
 {
     msg_header::ServerMsgHeader header;

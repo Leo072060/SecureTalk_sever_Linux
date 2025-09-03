@@ -411,6 +411,7 @@ void NetworkManager::sendMessage(const ClientID &clientID, MsgType msgType, cons
         event.events   = event.events | EPOLLOUT;
         event.data.ptr = it->second;
         epoll_ctl(m_epollFd, EPOLL_CTL_MOD, it->second->fd, &event);
+
 #ifndef DEBUG
         std::cout << "Sending message to client: type=" << msgType << ", length=" << msg.size() << std::endl;
 #endif
@@ -437,10 +438,6 @@ void NetworkManager::initThreadPool()
         m_maxWorkerThreads = std::thread::hardware_concurrency();
     }
 
-#ifdef DEBUG
-    std::cout << "Initializing thread pool with " << m_maxWorkerThreads << " threads." << std::endl;
-#endif
-
     // Create worker threads
     for (size_t i = 0; i < m_maxWorkerThreads; ++i)
     {
@@ -456,7 +453,6 @@ void NetworkManager::initThreadPool()
                     task = std::move(m_readMessageQueue.front());
                     m_readMessageQueue.pop();
                 }
-
                 // Find message handler
                 auto it = m_msgHandlers.find(std::get<1>(task));
                 if (it != m_msgHandlers.end())
@@ -472,6 +468,12 @@ void NetworkManager::initThreadPool()
                         std::unique_lock<std::mutex> lock(m_sendMessageQueueMutex);
                         m_sendMessageQueue.push(response);
                     }
+                }
+                else
+                {
+                    std::tuple<ClientID, MsgType, std::string> response{std::get<0>(task), INVALID_MESSAGE_TYPE,
+                                                                        "No handler for message type: " +
+                                                                            std::to_string(std::get<1>(task))};
                 }
             }
         });
