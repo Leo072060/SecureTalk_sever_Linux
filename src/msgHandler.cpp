@@ -1,7 +1,8 @@
 #include "msgHandler.h"
 
-#include "msg_header.pb.h"
+#include "databaseManager.h"
 #include "msg.pb.h"
+#include "msg_header.pb.h"
 #include "networkMsg.h"
 
 #include <iostream>
@@ -32,21 +33,24 @@ std::tuple<ClientID, MsgType, std::string> HandleLoginRequest(const ClientID &cl
         return GetInvalidMessageErrorResponse(client);
     }
 
-    // Handle login request
+    // Check credentials
+    DatabaseManager::ResultCode result = DatabaseManager::instance()->authenticateUser(loginReq.username(), loginReq.password());
+
+    // Prepare response
     msg::LoginResponse loginResp;
     loginResp.mutable_header()->CopyFrom(GetServerMsgHeader());
-    if (loginReq.username() == "account" && loginReq.password() == "123")
+    if (result == DatabaseManager::USER_VERIFICATION_SUCCESS)
     {
-        loginResp.set_state(msg::LoginResponse::SUCCESS);
+        loginResp.set_state(msg::LoginResponse::USER_VERIFICATION_SUCCESS);
         loginResp.set_session_id("session_abc123");
     }
     else
     {
-        loginResp.set_state(msg::LoginResponse::INVALID_CREDENTIALS);
+        loginResp.set_state(msg::LoginResponse::USER_VERIFICATION_FAILED);
         loginResp.set_session_id("");
     }
-
     std::string msg;
     loginResp.SerializeToString(&msg);
+
     return std::make_tuple(client, LOGIN_RESPONSE, msg);
 }

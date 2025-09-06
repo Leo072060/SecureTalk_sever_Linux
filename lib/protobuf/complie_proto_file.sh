@@ -4,8 +4,8 @@ set -e  # Exit immediately if a command exits with a non-zero status
 # Configuration
 PROTOC_PATH="protoc"       # Path to the protoc executable
 PROTO_SRC="./proto_file"    # Directory containing proto files
-OUT_DIR="./src"             # Output directory for compiled files
-INCLUDE_DIR="./include"     # Target directory for header files
+OUT_DIR="./generated_src"             # Output directory for compiled files
+INCLUDE_DIR="./generated_include"     # Target directory for header files
 
 # Clean output directories
 echo "Cleaning output directories..."

@@ -11,24 +11,11 @@ message IPAddress
 
 message ClientMsgHeader 
 {
-    int32 user_id = 2;
-    string session_id = 3;
-    int64 timestamp = 4;
-    Platform platform = 5;
-    IPAddress ip_address = 6;
-
-    enum Platform
-    {
-        UNKNOWN = 0;
-        WINDOWS = 1;
-        LINUX = 2;
-        MAC = 3;
-        ANDROID = 4;
-        IOS = 5;
-    }
+    string session_id = 1;
+    int64 timestamp = 2;
 }
 
 message ServerMsgHeader 
 {
-    int64 timestamp = 4;
+    int64 timestamp = 1;
 }

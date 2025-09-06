@@ -9,6 +9,17 @@ message LoginRequest
     msg_header.ClientMsgHeader header = 1;
     string username = 2;
     string password = 3;
+    Platform platform = 4;
+
+    enum Platform
+    {
+        UNKNOWN = 0;
+        WINDOWS = 1;
+        LINUX = 2;
+        MAC = 3;
+        ANDROID = 4;
+        IOS = 5;
+    }
 }
 
 message LoginResponse 
@@ -17,11 +28,11 @@ message LoginResponse
     StateCode state = 2;
     string session_id = 3;
 
+
     enum StateCode 
     {
-        SUCCESS = 0;
-        INVALID_CREDENTIALS = 1;
-        USER_NOT_FOUND = 2;
+        USER_VERIFICATION_SUCCESS = 0;
+        USER_VERIFICATION_FAILED = 1;
     }
 }
 
