@@ -1,3 +1,0 @@
-/home/twh/code/project/SecureTalk/build/CMakeFiles/SecureTalk.dir
-/home/twh/code/project/SecureTalk/build/CMakeFiles/edit_cache.dir
-/home/twh/code/project/SecureTalk/build/CMakeFiles/rebuild_cache.dir
