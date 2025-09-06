@@ -2,9 +2,11 @@
 #define NETWORKMANAGER_H
 
 #include <arpa/inet.h>
+#include <cerrno>
 #include <chrono>
 #include <condition_variable>
 #include <cstdint>
+#include <cstring>
 #include <fcntl.h>
 #include <functional>
 #include <iostream>
@@ -83,14 +85,14 @@ class NetworkManager
     void initThreadPool();
 
   private:
-    uint32_t             m_port           = 0;
-    int                  m_serverFd       = 0;
-    int                  m_epollFd        = 0;
-    int                  m_maxEpollEvents = 1024;
+    uint32_t                              m_port           = 0;
+    int                                   m_serverFd       = 0;
+    int                                   m_epollFd        = 0;
+    int                                   m_maxEpollEvents = 1024;
     std::chrono::steady_clock::time_point lastCheckHeartbeatTime{};
-    std::chrono::seconds checkHeartbeatInterval{5};
-    std::chrono::seconds activeTimeout{15};
-    std::chrono::seconds connectionTimeout{45};
+    std::chrono::seconds                  checkHeartbeatInterval{5};
+    std::chrono::seconds                  activeTimeout{15};
+    std::chrono::seconds                  connectionTimeout{45};
 
     std::unordered_map<ClientID, EpollData *> m_ClientIDToEpollData;
     std::unordered_map<EpollData *, ClientID> m_EpollDataToClientID;

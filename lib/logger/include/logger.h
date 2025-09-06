@@ -1,6 +1,11 @@
 #ifndef LOGGER_H
 #define LOGGER_H
 
+#ifdef DEBUG
+#undef DEBUG
+#define ENABLE_DEBUG
+#endif
+
 #include <chrono>
 #include <fstream>
 #include <iomanip>
@@ -59,13 +64,13 @@ class LogAppender
 {
   public:
     LogAppender(LogLevel            level     = LogLevel::DEBUG,
-                const LogFormatter &formatter = LogFormatter("%d [%p] [%t] %f:%l %m%n"));
+                const LogFormatter &formatter = LogFormatter("%d %p [%t]\t %f:%l: %m%n"));
     virtual ~LogAppender() = default;
 
-    void log(LogLevel level, const std::shared_ptr<LogEvent> &event) const;
+    void log(LogLevel level, const std::shared_ptr<LogEvent> &event);
 
   protected:
-    virtual void logToDest(const std::string &log) const = 0;
+    virtual void logToDest(const std::string &log) = 0;
 
   private:
     LogLevel     m_level;
@@ -76,11 +81,11 @@ class LogAppender
 class ConsoleLogAppender : public LogAppender
 {
   public:
-    ConsoleLogAppender(LogLevel level, const LogFormatter &formatter);
+    ConsoleLogAppender(LogLevel level, const LogFormatter &formatter = LogFormatter("%d %p [%t] %f:%l: %m%n"));
     ~ConsoleLogAppender() override = default;
 
   protected:
-    void logToDest(const std::string &log) const override;
+    void logToDest(const std::string &log) override;
 
   private:
     static std::mutex m_mutex;
@@ -90,15 +95,17 @@ class ConsoleLogAppender : public LogAppender
 class FileLogAppender : public LogAppender
 {
   public:
-    FileLogAppender(const std::string &filename, LogLevel level, const LogFormatter &formatter);
-    ~FileLogAppender() override = default;
+    FileLogAppender(const std::string &filename, LogLevel level,
+                    const LogFormatter &formatter = LogFormatter("%d %p [%t]\t %f:%l: %m%n"));
+    ~FileLogAppender() override;
 
   protected:
-    void logToDest(const std::string &log) const override;
+    void logToDest(const std::string &log) override;
 
   private:
     std::string        m_filename;
     mutable std::mutex m_mutex;
+    std::ofstream      m_ofs;
 };
 
 // Logger
@@ -116,10 +123,16 @@ class Logger
     std::vector<std::shared_ptr<LogAppender>> m_appenders;
 };
 
+#ifdef PtrToLogger
+
+#ifdef ENABLE_DEBUG
 #define LOG_DEBUG(logger, content)                                                                                     \
     logger.log(LogLevel::DEBUG,                                                                                        \
                std::make_shared<LogEvent>(__FILE__, __LINE__, std::chrono::steady_clock::now(),                        \
                                           std::this_thread::get_id(), 0, std::chrono::system_clock::now(), content))
+#else
+#define LOG_DEBUG(logger, content)
+#endif  
 
 #define LOG_INFO(logger, content)                                                                                      \
     logger.log(LogLevel::INFO,                                                                                         \
@@ -140,5 +153,37 @@ class Logger
     logger.log(LogLevel::FATAL,                                                                                        \
                std::make_shared<LogEvent>(__FILE__, __LINE__, std::chrono::steady_clock::now(),                        \
                                           std::this_thread::get_id(), 0, std::chrono::system_clock::now(), content))
+#else
+
+#ifdef ENABLE_DEBUG
+#define LOG_DEBUG(logger, content)                                                                                     \
+    logger->log(LogLevel::DEBUG,                                                                                        \
+               std::make_shared<LogEvent>(__FILE__, __LINE__, std::chrono::steady_clock::now(),                        \
+                                          std::this_thread::get_id(), 0, std::chrono::system_clock::now(), content))
+#else
+#define LOG_DEBUG(logger, content)
+#endif  
+
+#define LOG_INFO(logger, content)                                                                                      \
+    logger->log(LogLevel::INFO,                                                                                         \
+               std::make_shared<LogEvent>(__FILE__, __LINE__, std::chrono::steady_clock::now(),                        \
+                                          std::this_thread::get_id(), 0, std::chrono::system_clock::now(), content))
+
+#define LOG_WARN(logger, content)                                                                                      \
+    logger->log(LogLevel::WARN,                                                                                         \
+               std::make_shared<LogEvent>(__FILE__, __LINE__, std::chrono::steady_clock::now(),                        \
+                                          std::this_thread::get_id(), 0, std::chrono::system_clock::now(), content))
+
+#define LOG_ERROR(logger, content)                                                                                     \
+    logger->log(LogLevel::ERROR,                                                                                        \
+               std::make_shared<LogEvent>(__FILE__, __LINE__, std::chrono::steady_clock::now(),                        \
+                                          std::this_thread::get_id(), 0, std::chrono::system_clock::now(), content))
+
+#define LOG_FATAL(logger, content)                                                                                     \
+    logger->log(LogLevel::FATAL,                                                                                        \
+               std::make_shared<LogEvent>(__FILE__, __LINE__, std::chrono::steady_clock::now(),                        \
+                                          std::this_thread::get_id(), 0, std::chrono::system_clock::now(), content))
+#endif
+
 
 #endif // LOGGER_H

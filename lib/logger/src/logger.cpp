@@ -1,7 +1,8 @@
 #include "logger.h"
 
-LogEvent::LogEvent(const char *file, int32_t line, std::chrono::steady_clock::time_point elapse, std::thread::id threadId, uint32_t fiberId,
-                   std::chrono::system_clock::time_point time, const std::string &content)
+LogEvent::LogEvent(const char *file, int32_t line, std::chrono::steady_clock::time_point elapse,
+                   std::thread::id threadId, uint32_t fiberId, std::chrono::system_clock::time_point time,
+                   const std::string &content)
     : m_file(file), m_line(line), m_elapse(elapse), m_threadId(threadId), m_fiberId(fiberId), m_time(time),
       m_content(content)
 {
@@ -36,19 +37,19 @@ std::string LogFormatter::format(LogLevel level, const std::shared_ptr<LogEvent>
                 switch (level)
                 {
                 case LogLevel::DEBUG:
-                    ss << "\033[37m[DEBUG]\033[0m ";
+                    ss << "\033[37m[DEBUG]\033[0m";
                     break;
                 case LogLevel::INFO:
-                    ss << "\033[32m[INFO]\033[0m ";
+                    ss << "\033[32m[INFO] \033[0m";
                     break;
                 case LogLevel::WARN:
-                    ss << "\033[33m[WARN]\033[0m ";
+                    ss << "\033[33m[WARN] \033[0m";
                     break;
                 case LogLevel::ERROR:
-                    ss << "\033[31m[ERROR]\033[0m ";
+                    ss << "\033[31m[ERROR]\033[0m";
                     break;
                 case LogLevel::FATAL:
-                    ss << "\033[41m[FATAL]\033[0m ";
+                    ss << "\033[41m[FATAL]\033[0m";
                     break;
                 }
                 break;
@@ -88,7 +89,7 @@ std::string LogFormatter::format(LogLevel level, const std::shared_ptr<LogEvent>
 
 LogAppender::LogAppender(LogLevel level, const LogFormatter &formatter) : m_level(level), m_formatter(formatter) {}
 
-void LogAppender::log(LogLevel level, const std::shared_ptr<LogEvent> &event) const
+void LogAppender::log(LogLevel level, const std::shared_ptr<LogEvent> &event)
 {
     if (level >= m_level)
     {
@@ -101,26 +102,35 @@ std::mutex ConsoleLogAppender::m_mutex;
 
 ConsoleLogAppender::ConsoleLogAppender(LogLevel level, const LogFormatter &formatter) : LogAppender(level, formatter) {}
 
-void ConsoleLogAppender::logToDest(const std::string &log) const
+void ConsoleLogAppender::logToDest(const std::string &log)
 {
     std::lock_guard<std::mutex> lock(m_mutex);
     std::cout << log;
 }
 
-void FileLogAppender::logToDest(const std::string &log) const
-{
-    std::lock_guard<std::mutex> lock(m_mutex);
-    std::ofstream               ofs(m_filename, std::ios::app);
-    if (ofs.is_open())
-    {
-        ofs << log;
-        ofs.close();
-    }
-}
-
 FileLogAppender::FileLogAppender(const std::string &filename, LogLevel level, const LogFormatter &formatter)
     : LogAppender(level, formatter), m_filename(filename)
 {
+    m_ofs.open(filename, std::ios::app);
+    if (!m_ofs.is_open())
+    {
+        throw std::runtime_error("Failed to open file: " + filename);
+    }
+}
+
+FileLogAppender::~FileLogAppender()
+{
+    if (m_ofs.is_open())
+    {
+        m_ofs.flush();
+        m_ofs.close();
+    }
+}
+void FileLogAppender::logToDest(const std::string &log)
+{
+    std::lock_guard<std::mutex> lock(m_mutex);
+    m_ofs << log;
+    m_ofs.flush();
 }
 
 Logger::Logger(const std::string &name, LogLevel level) : m_name(name), m_level(level) {}

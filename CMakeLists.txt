@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # DEBUG 
-# add_definitions(-DDEBUG)
+add_definitions(-DDEBUG)
 
 # Find package
 find_package(OpenSSL REQUIRED)
@@ -18,13 +18,15 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 include_directories(${PROJECT_SOURCE_DIR}/lib/protobuf/include)
 include_directories(${PROJECT_SOURCE_DIR}/lib/protobuf/generated_include)
 include_directories(${PROJECT_SOURCE_DIR}/lib/sqlite/include)
+include_directories(${PROJECT_SOURCE_DIR}/lib/logger/include)
 
 # Collect all .cpp files in src directory
 file(GLOB SRC_FILES ${PROJECT_SOURCE_DIR}/src/*.cpp)
-file(GLOB PROTO_FILES ${PROJECT_SOURCE_DIR}/lib/protobuf/generated_src/*.cc)
+file(GLOB PROTO_SRC_FILES ${PROJECT_SOURCE_DIR}/lib/protobuf/generated_src/*.cc)
+file(GLOB LOGGER_SRC_FILES ${PROJECT_SOURCE_DIR}/lib/logger/src/*.cpp)
 
 # Build an executable from source files
-add_executable(SecureTalk ${SRC_FILES} ${PROTO_FILES})
+add_executable(SecureTalk ${SRC_FILES} ${PROTO_SRC_FILES} ${LOGGER_SRC_FILES})
 
 # Link against libraries from lib directory
 link_directories(

@@ -1,4 +1,5 @@
 #include "networkManager.h"
+#include "logManager.h"
 
 uint64_t GenerateToken()
 {
@@ -84,6 +85,7 @@ void NetworkManager::start(uint32_t port)
     m_serverFd = socket(AF_INET, SOCK_STREAM, 0);
     if (m_serverFd == -1)
     {
+        LOG_ERROR(networkLogger, "Failed to create socket");
         throw std::runtime_error("Failed to create socket");
     }
 
@@ -92,6 +94,7 @@ void NetworkManager::start(uint32_t port)
     if (setsockopt(m_serverFd, SOL_SOCKET, SO_REUSEPORT, &opt, sizeof(opt)) < 0)
     {
         close(m_serverFd);
+        LOG_ERROR(networkLogger, "Set socket option SO_REUSEPORT failed");
         throw std::runtime_error("Set socket option SO_REUSEPORT failed");
     }
 
@@ -102,18 +105,17 @@ void NetworkManager::start(uint32_t port)
     serverAddr.sin_port        = htons(m_port);
     if (bind(m_serverFd, (struct sockaddr *)&serverAddr, sizeof(serverAddr)) == -1)
     {
+        close(m_serverFd);
+        LOG_ERROR(networkLogger, "Failed to bind socket");
         throw std::runtime_error("Failed to bind socket");
-    }
-
-    if (listen(m_serverFd, SOMAXCONN) == -1)
-    {
-        throw std::runtime_error("Failed to listen on socket");
     }
 
     // Create epoll instance
     m_epollFd = epoll_create1(0);
     if (m_epollFd == -1)
     {
+        close(m_serverFd);
+        LOG_ERROR(networkLogger, "Failed to create epoll instance");
         throw std::runtime_error("Failed to create epoll instance");
     }
 
@@ -123,8 +125,11 @@ void NetworkManager::start(uint32_t port)
     event.data.fd = m_serverFd;
     if (epoll_ctl(m_epollFd, EPOLL_CTL_ADD, m_serverFd, &event) == -1)
     {
+        close(m_serverFd);
+        LOG_ERROR(networkLogger, "Failed to add server socket to epoll");
         throw std::runtime_error("Failed to add server socket to epoll");
     }
+    struct epoll_event events[m_maxEpollEvents];
 
     // Initialize heartbeat check time
     lastCheckHeartbeatTime = std::chrono::steady_clock::now();
@@ -132,7 +137,15 @@ void NetworkManager::start(uint32_t port)
     // Initialize thread pool
     initThreadPool();
 
-    struct epoll_event events[m_maxEpollEvents];
+    // Start listening
+    if (listen(m_serverFd, SOMAXCONN) == -1)
+    {
+        close(m_serverFd);
+        LOG_ERROR(networkLogger, "Failed to start listening on socket");
+        throw std::runtime_error("Failed to start listening on socket");
+    }
+    LOG_INFO(networkLogger, "Server started on port " + std::to_string(m_port));
+
     while (true)
     {
         int nready = epoll_wait(m_epollFd, events, m_maxEpollEvents, 1000);
@@ -142,6 +155,7 @@ void NetworkManager::start(uint32_t port)
             {
                 continue;
             }
+            LOG_ERROR(networkLogger, "Failed to wait on epoll");
             throw std::runtime_error("Failed to wait on epoll");
         }
 
@@ -192,6 +206,9 @@ void NetworkManager::start(uint32_t port)
 
                 // Map EpollData to ClientID
                 m_EpollDataToClientID[data] = ClientIDKey;
+
+                LOG_INFO(networkLogger,
+                         "New connection from " + std::string(data->ip) + ":" + std::to_string(data->port));
             }
             else
             {
@@ -209,10 +226,8 @@ void NetworkManager::start(uint32_t port)
                 std::string msg;
                 while (readMessage(data, msgType, msg))
                 {
-#ifdef DEBUG
-                    std::cout << "Received message from client: type=" << msgType << ", length=" << msg.size()
-                              << std::endl;
-#endif
+                    LOG_DEBUG(networkLogger,
+                              "Received message from " + std::string(data->ip) + ":" + std::to_string(data->port));
                     m_readMessageQueue.emplace(it.first, msgType, msg);
                     m_condition.notify_one();
                 }
@@ -238,9 +253,9 @@ void NetworkManager::start(uint32_t port)
         // Check heartbeats and timeouts
         if (std::chrono::steady_clock::now() - lastCheckHeartbeatTime > checkHeartbeatInterval)
         {
-#ifndef DEBUG
-            std::cout << "Checking heartbeats and timeouts..." << std::endl;
-#endif
+            LOG_DEBUG(networkLogger, "Checking heartbeats and timeouts");
+            LOG_DEBUG(networkLogger, "Number of clients: " + std::to_string(m_ClientIDToEpollData.size()));
+
             lastCheckHeartbeatTime = std::chrono::steady_clock::now();
 
             for (const auto &pair : m_ClientIDToEpollData)
@@ -250,6 +265,8 @@ void NetworkManager::start(uint32_t port)
                 if (pair.second->lastActiveTime + connectionTimeout < std::chrono::steady_clock::now())
                 {
                     // Close inactive connections
+                    LOG_INFO(networkLogger, "Connection timeout for " + std::string(pair.second->ip) + ":" +
+                                                std::to_string(pair.second->port));
                     closeConnection(pair.second);
                     continue;
                 }
@@ -268,13 +285,11 @@ void NetworkManager::closeConnection(EpollData *data)
 {
     if (data)
     {
-#ifdef DEBUG
-        std::cout << "Closing connection (fd=" << data->fd << ")" << std::endl;
-#endif
         m_ClientIDToEpollData.erase({m_EpollDataToClientID[data]});
         m_EpollDataToClientID.erase(data);
         epoll_ctl(m_epollFd, EPOLL_CTL_DEL, data->fd, nullptr);
         close(data->fd);
+        LOG_INFO(networkLogger, "Closed connection to " + std::string(data->ip) + ":" + std::to_string(data->port));
         delete data;
         data = nullptr;
     }
@@ -298,9 +313,12 @@ void NetworkManager::epollCallback(epoll_event &event)
             if (n > 0)
             {
                 data->readBuffer.append(std::string(buffer, n));
+                LOG_DEBUG(networkLogger, "Received " + std::to_string(n) + " bytes from " + std::string(data->ip) +
+                                             ":" + std::to_string(data->port));
             }
             else if (n == 0)
             {
+                LOG_ERROR(networkLogger, "Connection closed by peer");
                 closeConnection(data);
                 return;
             }
@@ -312,6 +330,7 @@ void NetworkManager::epollCallback(epoll_event &event)
                 }
                 else
                 {
+                    LOG_ERROR(networkLogger, "Error reading from socket: " + std::string(strerror(errno)));
                     closeConnection(data);
                     return;
                 }
@@ -337,6 +356,7 @@ void NetworkManager::epollCallback(epoll_event &event)
                 }
                 else
                 {
+                    LOG_ERROR(networkLogger, "Error writing to socket: " + std::string(strerror(errno)));
                     closeConnection(data);
                     return;
                 }
@@ -412,17 +432,14 @@ void NetworkManager::sendMessage(const ClientID &clientID, MsgType msgType, cons
         event.data.ptr = it->second;
         epoll_ctl(m_epollFd, EPOLL_CTL_MOD, it->second->fd, &event);
 
-#ifndef DEBUG
-        std::cout << "Sending message to client: type=" << msgType << ", length=" << msg.size() << std::endl;
-#endif
+        LOG_DEBUG(networkLogger,
+                  "Sent message to " + std::string(it->second->ip) + ":" + std::to_string(it->second->port));
     }
     // Client not found, possibly disconnected
-    /*
     else
     {
-
+        LOG_WARN(networkLogger, "Client not found for message sending");
     }
-    */
 }
 
 void NetworkManager::setMaxWorkerThreads(size_t maxThreads)
@@ -474,6 +491,8 @@ void NetworkManager::initThreadPool()
                     std::tuple<ClientID, MsgType, std::string> response{std::get<0>(task), INVALID_MESSAGE_TYPE,
                                                                         "No handler for message type: " +
                                                                             std::to_string(std::get<1>(task))};
+
+                    LOG_WARN(networkLogger, "No handler for message type: " + std::to_string(std::get<1>(task)));
                 }
             }
         });

@@ -1,0 +1,16 @@
+2025-09-06 20:46:12 [32m[INFO] [0m [140668060477248]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:137: Server started on port 7777
+2025-09-06 20:47:16 [32m[INFO] [0m [139874785957696]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:137: Server started on port 7777
+2025-09-06 20:47:24 [32m[INFO] [0m [139643662612288]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:137: Server started on port 7777
+2025-09-06 20:48:35 [32m[INFO] [0m [139643662612288]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:199: New connection from 127.0.0.1:54412
+2025-09-06 21:54:02 [32m[INFO] [0m [140374017541952]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-06 21:58:00 [32m[INFO] [0m [139631087781696]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-06 21:58:32 [32m[INFO] [0m [139631087781696]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:210: New connection from 127.0.0.1:53080
+2025-09-06 22:01:38 [32m[INFO] [0m [139631087781696]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:210: New connection from 127.0.0.1:53791
+2025-09-06 22:03:39 [32m[INFO] [0m [140647557650240]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-06 22:03:43 [32m[INFO] [0m [140647557650240]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:210: New connection from 127.0.0.1:54223
+2025-09-06 22:14:29 [32m[INFO] [0m [140613679347520]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-06 22:14:33 [32m[INFO] [0m [140613679347520]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:210: New connection from 127.0.0.1:56283
+2025-09-06 22:19:11 [32m[INFO] [0m [139685664409408]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-06 22:19:13 [32m[INFO] [0m [139685664409408]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:210: New connection from 127.0.0.1:57646
+2025-09-06 22:19:29 [31m[ERROR][0m [139685664409408]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Connection closed by peer
+2025-09-06 22:19:29 [32m[INFO] [0m [139685664409408]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:292: Closed connection to 127.0.0.1:57646
