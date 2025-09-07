@@ -4,6 +4,11 @@ package msg;
 
 import "msg_header.proto";
 
+message InvalidMessageError
+{
+    msg_header.ServerMsgHeader header = 1;
+}
+
 message LoginRequest 
 {    
     msg_header.ClientMsgHeader header = 1;
@@ -28,15 +33,30 @@ message LoginResponse
     StateCode state = 2;
     string session_id = 3;
 
-
     enum StateCode 
     {
-        USER_VERIFICATION_SUCCESS = 0;
+        USER_NOT_FOUND = 0;
         USER_VERIFICATION_FAILED = 1;
+        USER_VERIFICATION_SUCCESS = 2;
     }
 }
 
-message InvalidMessageError
+message SignUpRequest 
+{ 
+    msg_header.ClientMsgHeader header = 1;
+    string username = 2;
+    string password = 3;
+}
+
+message SignUpResponse 
 {
     msg_header.ServerMsgHeader header = 1;
+    StateCode state = 2;
+
+    enum StateCode 
+    {
+        USER_EXIST = 0;
+        USER_CREATED = 1;
+        USER_CREATE_FAILED = 2;
+    }
 }

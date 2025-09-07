@@ -1,5 +1,5 @@
 #include "databaseManager.h"
-
+#include "logManager.h"
 std::string generateSalt(size_t length)
 {
     static const char charset[] = "0123456789"
@@ -48,6 +48,7 @@ DatabaseManager::DatabaseManager()
     // Create database if not exists
     if (sqlite3_open(m_databasePath.string().c_str(), &m_database) != SQLITE_OK)
     {
+        LOG_ERROR(databaseLogger, "Failed to open user database");
         throw std::runtime_error("Failed to open user database");
     }
     const char *sql_createUserTable = "CREATE TABLE IF NOT EXISTS users ("
@@ -63,6 +64,7 @@ DatabaseManager::DatabaseManager()
         error += errMsg;
         sqlite3_free(errMsg);
         sqlite3_close(m_database);
+        LOG_ERROR(databaseLogger, error);
         throw std::runtime_error(error);
     }
 }
@@ -89,6 +91,7 @@ DatabaseManager::ResultCode DatabaseManager::createUser(const std::string &usern
     sqlite3_stmt *stmt;
     if (sqlite3_prepare_v2(m_database, sql_checkUser, -1, &stmt, nullptr) != SQLITE_OK)
     {
+        LOG_ERROR(databaseLogger, "Failed to prepare SQL statement: " + std::string(sql_checkUser));
         return DATABASE_ERROR;
     }
     sqlite3_bind_text(stmt, 1, username.c_str(), -1, SQLITE_STATIC);
@@ -108,6 +111,7 @@ DatabaseManager::ResultCode DatabaseManager::createUser(const std::string &usern
     const char *sql_insertUser = "INSERT INTO users (username, password_hash, salt) VALUES (?, ?, ?);";
     if (sqlite3_prepare_v2(m_database, sql_insertUser, -1, &stmt, nullptr) != SQLITE_OK)
     {
+        LOG_ERROR(databaseLogger, "Failed to prepare SQL statement: " + std::string(sql_insertUser));
         return DATABASE_ERROR;
     }
     sqlite3_bind_text(stmt, 1, username.c_str(), -1, SQLITE_STATIC);
@@ -135,6 +139,7 @@ DatabaseManager::ResultCode DatabaseManager::authenticateUser(const std::string 
         sqlite3_stmt *stmt;
         if (sqlite3_prepare_v2(m_database, sql_getUser, -1, &stmt, nullptr) != SQLITE_OK)
         {
+            LOG_ERROR(databaseLogger, "Failed to prepare statement: " + std::string(sql_getUser));
             return DATABASE_ERROR;
         }
         sqlite3_bind_text(stmt, 1, username.c_str(), -1, SQLITE_STATIC);

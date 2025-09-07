@@ -146,6 +146,7 @@ void NetworkManager::start(uint32_t port)
     }
     LOG_INFO(networkLogger, "Server started on port " + std::to_string(m_port));
 
+    size_t clientCounter = 0;
     while (true)
     {
         int nready = epoll_wait(m_epollFd, events, m_maxEpollEvents, 1000);
@@ -254,10 +255,8 @@ void NetworkManager::start(uint32_t port)
         if (std::chrono::steady_clock::now() - lastCheckHeartbeatTime > checkHeartbeatInterval)
         {
             LOG_DEBUG(networkLogger, "Checking heartbeats and timeouts");
-            LOG_DEBUG(networkLogger, "Number of clients: " + std::to_string(m_ClientIDToEpollData.size()));
 
             lastCheckHeartbeatTime = std::chrono::steady_clock::now();
-
             for (const auto &pair : m_ClientIDToEpollData)
             {
                 const ClientID &clientID = pair.first;
@@ -276,6 +275,12 @@ void NetworkManager::start(uint32_t port)
                     // Send heartbeat messages
                     SendMessage(clientID, MsgType::HEARTBEAT, "ping");
                 }
+            }
+
+            if (clientCounter != m_ClientIDToEpollData.size())
+            {
+                clientCounter = m_ClientIDToEpollData.size();
+                LOG_INFO(networkLogger, "Number of clients: " + std::to_string(clientCounter));
             }
         }
     }
@@ -488,11 +493,11 @@ void NetworkManager::initThreadPool()
                 }
                 else
                 {
-                    std::tuple<ClientID, MsgType, std::string> response{std::get<0>(task), INVALID_MESSAGE_TYPE,
+                    std::tuple<ClientID, MsgType, std::string> response{std::get<0>(task), MsgType::INVALID_MESSAGE_TYPE,
                                                                         "No handler for message type: " +
-                                                                            std::to_string(std::get<1>(task))};
+                                                                            std::to_string(static_cast<unsigned int>(std::get<1>(task)))};
 
-                    LOG_WARN(networkLogger, "No handler for message type: " + std::to_string(std::get<1>(task)));
+                    LOG_WARN(networkLogger, "No handler for message type: " + std::to_string(static_cast<unsigned int>(std::get<1>(task))));
                 }
             }
         });

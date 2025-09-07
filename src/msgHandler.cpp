@@ -4,6 +4,7 @@
 #include "msg.pb.h"
 #include "msg_header.pb.h"
 #include "networkMsg.h"
+#include "logManager.h"
 
 #include <iostream>
 
@@ -21,7 +22,7 @@ std::tuple<ClientID, MsgType, std::string> GetInvalidMessageErrorResponse(const 
     invalidMsgError.mutable_header()->CopyFrom(GetServerMsgHeader());
     std::string msg;
     invalidMsgError.SerializeToString(&msg);
-    return std::make_tuple(client, INVALID_MESSAGE_ERROR, msg);
+    return std::make_tuple(client, MsgType::INVALID_MESSAGE_ERROR, msg);
 }
 
 std::tuple<ClientID, MsgType, std::string> HandleLoginRequest(const ClientID &client, const std::string &message)
@@ -30,6 +31,7 @@ std::tuple<ClientID, MsgType, std::string> HandleLoginRequest(const ClientID &cl
     msg::LoginRequest loginReq;
     if (!loginReq.ParseFromString(message))
     {
+        LOG_ERROR(networkLogger, "Failed to parse login request");
         return GetInvalidMessageErrorResponse(client);
     }
 
@@ -43,14 +45,16 @@ std::tuple<ClientID, MsgType, std::string> HandleLoginRequest(const ClientID &cl
     {
         loginResp.set_state(msg::LoginResponse::USER_VERIFICATION_SUCCESS);
         loginResp.set_session_id("session_abc123");
+        LOG_INFO(networkLogger, "Login successful: " + loginReq.username());
     }
     else
     {
         loginResp.set_state(msg::LoginResponse::USER_VERIFICATION_FAILED);
         loginResp.set_session_id("");
+        LOG_INFO(networkLogger, "Login failed: " + loginReq.username());
     }
     std::string msg;
     loginResp.SerializeToString(&msg);
 
-    return std::make_tuple(client, LOGIN_RESPONSE, msg);
+    return std::make_tuple(client, MsgType::LOGIN_RESPONSE, msg);
 }
