@@ -5156,3 +5156,18 @@
 2025-09-08 19:26:28 [37m[DEBUG][0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
 2025-09-08 19:26:33 [37m[DEBUG][0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
 2025-09-08 19:26:38 [37m[DEBUG][0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:59:35 [32m[INFO] [0m [140201150719936]	 /home/twh/code/project/SecureTalk/src/main.cpp:18: Hello, this is SecureTalk server!
+2025-09-08 19:59:35 [32m[INFO] [0m [140201150719936]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 20:05:08 [32m[INFO] [0m [139738012760000]	 /home/twh/code/project/SecureTalk/src/main.cpp:16: Hello, this is SecureTalk server!
+2025-09-08 20:05:08 [32m[INFO] [0m [139738012760000]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 20:05:13 [37m[DEBUG][0m [139738012760000]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 20:05:18 [32m[INFO] [0m [140223782553536]	 /home/twh/code/project/SecureTalk/src/main.cpp:16: Hello, this is SecureTalk server!
+2025-09-08 20:05:18 [32m[INFO] [0m [140223782553536]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 20:06:16 [32m[INFO] [0m [140175416903616]	 /home/twh/code/project/SecureTalk/src/main.cpp:16: Hello, this is SecureTalk server!
+2025-09-08 20:06:17 [32m[INFO] [0m [140175416903616]	 /home/twh/code/project/SecureTalk/src/main.cpp:25: Redis started.
+2025-09-08 20:06:17 [32m[INFO] [0m [140175416903616]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 20:06:22 [37m[DEBUG][0m [140175416903616]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 20:06:26 [37m[DEBUG][0m [140175416903616]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 20:06:31 [37m[DEBUG][0m [140175416903616]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 20:06:36 [37m[DEBUG][0m [140175416903616]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 20:06:41 [37m[DEBUG][0m [140175416903616]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts

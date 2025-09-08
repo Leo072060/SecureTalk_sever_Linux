@@ -35,9 +35,12 @@ class DatabaseManager
     ResultCode deleteUser(const std::string &username);
 
   private:
-    std::mutex            m_databaseMutex;
-    sqlite3              *m_database     = nullptr;
-    std::filesystem::path m_databasePath = "../data/user.db";
+    std::mutex            m_user_databaseMutex;
+    std::mutex            m_msg_databaseMutex;
+    sqlite3              *m_user_database     = nullptr;
+    sqlite3              *m_msg_database      = nullptr;
+    std::filesystem::path m_user_databasePath = "../data/user.db";
+    std::filesystem::path m_msg_databasePath = "../data/msg.db";
 };
 
 #endif // DATABASE_MANAGER_H

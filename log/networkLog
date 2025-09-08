@@ -732,3 +732,7 @@
 2025-09-08 19:25:43 [32m[INFO] [0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:268: Connection timeout for 127.0.0.1:55531
 2025-09-08 19:25:43 [32m[INFO] [0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:306: Closed connection to 127.0.0.1:55531
 2025-09-08 19:25:43 [32m[INFO] [0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:288: Number of clients: 0
+2025-09-08 19:59:35 [32m[INFO] [0m [140201150719936]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 20:05:08 [32m[INFO] [0m [139738012760000]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 20:05:18 [32m[INFO] [0m [140223782553536]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 20:06:17 [32m[INFO] [0m [140175416903616]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777

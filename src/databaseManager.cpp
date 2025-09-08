@@ -46,7 +46,7 @@ DatabaseManager *DatabaseManager::instance()
 DatabaseManager::DatabaseManager()
 {
     // Create database if not exists
-    if (sqlite3_open(m_databasePath.string().c_str(), &m_database) != SQLITE_OK)
+    if (sqlite3_open(m_user_databasePath.string().c_str(), &m_user_database) != SQLITE_OK)
     {
         LOG_ERROR(databaseLogger, "Failed to open user database");
         throw std::runtime_error("Failed to open user database");
@@ -58,12 +58,12 @@ DatabaseManager::DatabaseManager()
                                       "salt TEXT NOT NULL"
                                       ");";
     char       *errMsg              = nullptr;
-    if (sqlite3_exec(m_database, sql_createUserTable, nullptr, nullptr, &errMsg) != SQLITE_OK)
+    if (sqlite3_exec(m_user_database, sql_createUserTable, nullptr, nullptr, &errMsg) != SQLITE_OK)
     {
         std::string error = "Failed to create users table: ";
         error += errMsg;
         sqlite3_free(errMsg);
-        sqlite3_close(m_database);
+        sqlite3_close(m_user_database);
         LOG_ERROR(databaseLogger, error);
         throw std::runtime_error(error);
     }
@@ -71,9 +71,13 @@ DatabaseManager::DatabaseManager()
 
 DatabaseManager::~DatabaseManager()
 {
-    if (m_database)
+    if (m_user_database)
     {
-        sqlite3_close(m_database);
+        sqlite3_close(m_user_database);
+    }
+    if(m_msg_database)
+    {
+        sqlite3_close(m_msg_database);
     }
 }
 
@@ -84,12 +88,12 @@ DatabaseManager::ResultCode DatabaseManager::createUser(const std::string &usern
     std::string password_hash = sha256(password + salt);
 
     // Insert user into database
-    std::lock_guard<std::mutex> lock(m_databaseMutex);
+    std::lock_guard<std::mutex> lock(m_user_databaseMutex);
 
     // Check if user already exists
     const char   *sql_checkUser = "SELECT COUNT(*) FROM users WHERE username = ?;";
     sqlite3_stmt *stmt;
-    if (sqlite3_prepare_v2(m_database, sql_checkUser, -1, &stmt, nullptr) != SQLITE_OK)
+    if (sqlite3_prepare_v2(m_user_database, sql_checkUser, -1, &stmt, nullptr) != SQLITE_OK)
     {
         LOG_ERROR(databaseLogger, "Failed to prepare SQL statement: " + std::string(sql_checkUser));
         return DATABASE_ERROR;
@@ -109,7 +113,7 @@ DatabaseManager::ResultCode DatabaseManager::createUser(const std::string &usern
 
     // Insert new user
     const char *sql_insertUser = "INSERT INTO users (username, password_hash, salt) VALUES (?, ?, ?);";
-    if (sqlite3_prepare_v2(m_database, sql_insertUser, -1, &stmt, nullptr) != SQLITE_OK)
+    if (sqlite3_prepare_v2(m_user_database, sql_insertUser, -1, &stmt, nullptr) != SQLITE_OK)
     {
         LOG_ERROR(databaseLogger, "Failed to prepare SQL statement: " + std::string(sql_insertUser));
         return DATABASE_ERROR;
@@ -132,12 +136,12 @@ DatabaseManager::ResultCode DatabaseManager::authenticateUser(const std::string 
     std::string stored_hash;
     std::string salt;
     {
-        std::lock_guard<std::mutex> lock(m_databaseMutex);
+        std::lock_guard<std::mutex> lock(m_user_databaseMutex);
 
         // Retrieve user info
         const char   *sql_getUser = "SELECT password_hash, salt FROM users WHERE username = ?;";
         sqlite3_stmt *stmt;
-        if (sqlite3_prepare_v2(m_database, sql_getUser, -1, &stmt, nullptr) != SQLITE_OK)
+        if (sqlite3_prepare_v2(m_user_database, sql_getUser, -1, &stmt, nullptr) != SQLITE_OK)
         {
             LOG_ERROR(databaseLogger, "Failed to prepare statement: " + std::string(sql_getUser));
             return DATABASE_ERROR;
@@ -164,12 +168,12 @@ DatabaseManager::ResultCode DatabaseManager::authenticateUser(const std::string 
 
 DatabaseManager::ResultCode DatabaseManager::deleteUser(const std::string &username)
 {
-    std::lock_guard<std::mutex> lock(m_databaseMutex);
+    std::lock_guard<std::mutex> lock(m_user_databaseMutex);
 
     // Delete user
     const char   *sql_deleteUser = "DELETE FROM users WHERE username = ?;";
     sqlite3_stmt *stmt;
-    if (sqlite3_prepare_v2(m_database, sql_deleteUser, -1, &stmt, nullptr) != SQLITE_OK)
+    if (sqlite3_prepare_v2(m_user_database, sql_deleteUser, -1, &stmt, nullptr) != SQLITE_OK)
     {
         return DATABASE_ERROR;
     }

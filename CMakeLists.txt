@@ -38,6 +38,7 @@ include_directories(${PROJECT_SOURCE_DIR}/lib/protobuf/include)
 include_directories(${PROJECT_SOURCE_DIR}/lib/protobuf/generated_include)
 include_directories(${PROJECT_SOURCE_DIR}/lib/sqlite/include)
 include_directories(${PROJECT_SOURCE_DIR}/lib/logger/include)
+include_directories(${PROJECT_SOURCE_DIR}/lib/hiredis/include)
 
 # Collect all .cpp files in src directory
 file(GLOB SRC_FILES ${PROJECT_SOURCE_DIR}/src/*.cpp)
@@ -55,5 +56,9 @@ link_directories(
 target_link_libraries(SecureTalk PRIVATE
     ${PROJECT_SOURCE_DIR}/lib/protobuf/lib/libprotobuf.so   
     ${PROJECT_SOURCE_DIR}/lib/sqlite/lib/libsqlite3.so   
-    OpenSSL::Crypto   
+    OpenSSL::Crypto
+    ${PROJECT_SOURCE_DIR}/lib/hiredis/lib/libhiredis.so
 )
+
+# 链接库
+target_link_libraries(SecureTalk PRIVATE ${HIREDIS_LIBRARIES})
