@@ -257,6 +257,7 @@ void NetworkManager::start(uint32_t port)
             LOG_DEBUG(networkLogger, "Checking heartbeats and timeouts");
 
             lastCheckHeartbeatTime = std::chrono::steady_clock::now();
+            std::vector<EpollData *> clientsToClose;
             for (const auto &pair : m_ClientIDToEpollData)
             {
                 const ClientID &clientID = pair.first;
@@ -266,7 +267,7 @@ void NetworkManager::start(uint32_t port)
                     // Close inactive connections
                     LOG_INFO(networkLogger, "Connection timeout for " + std::string(pair.second->ip) + ":" +
                                                 std::to_string(pair.second->port));
-                    closeConnection(pair.second);
+                    clientsToClose.push_back(pair.second);
                     continue;
                 }
                 // Check active timeout
@@ -275,6 +276,10 @@ void NetworkManager::start(uint32_t port)
                     // Send heartbeat messages
                     SendMessage(clientID, MsgType::HEARTBEAT, "ping");
                 }
+            }
+            for (auto *data : clientsToClose)
+            {
+                closeConnection(data);
             }
 
             if (clientCounter != m_ClientIDToEpollData.size())
@@ -290,9 +295,13 @@ void NetworkManager::closeConnection(EpollData *data)
 {
     if (data)
     {
-        m_ClientIDToEpollData.erase({m_EpollDataToClientID[data]});
+        if (epoll_ctl(m_epollFd, EPOLL_CTL_DEL, data->fd, nullptr) == -1)
+        {
+            LOG_ERROR(networkLogger, "Failed to remove fd " + std::to_string(data->fd));
+            return;
+        }
+        m_ClientIDToEpollData.erase(m_EpollDataToClientID[data]);
         m_EpollDataToClientID.erase(data);
-        epoll_ctl(m_epollFd, EPOLL_CTL_DEL, data->fd, nullptr);
         close(data->fd);
         LOG_INFO(networkLogger, "Closed connection to " + std::string(data->ip) + ":" + std::to_string(data->port));
         delete data;
@@ -493,11 +502,12 @@ void NetworkManager::initThreadPool()
                 }
                 else
                 {
-                    std::tuple<ClientID, MsgType, std::string> response{std::get<0>(task), MsgType::INVALID_MESSAGE_TYPE,
-                                                                        "No handler for message type: " +
-                                                                            std::to_string(static_cast<unsigned int>(std::get<1>(task)))};
+                    std::tuple<ClientID, MsgType, std::string> response{
+                        std::get<0>(task), MsgType::INVALID_MESSAGE_TYPE,
+                        "No handler for message type: " + std::to_string(static_cast<unsigned int>(std::get<1>(task)))};
 
-                    LOG_WARN(networkLogger, "No handler for message type: " + std::to_string(static_cast<unsigned int>(std::get<1>(task))));
+                    LOG_WARN(networkLogger, "No handler for message type: " +
+                                                std::to_string(static_cast<unsigned int>(std::get<1>(task))));
                 }
             }
         });

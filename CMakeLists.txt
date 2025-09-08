@@ -10,6 +10,25 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # DEBUG 
 add_definitions(-DDEBUG)
 
+# Set the build type to Debug if it is not already specified
+if(NOT CMAKE_BUILD_TYPE)
+    set(CMAKE_BUILD_TYPE Debug)
+endif()
+
+# Compiler options for AddressSanitizer
+if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
+    # Define AddressSanitizer flags and keep frame pointer for better stack traces
+    set(ASAN_FLAGS "-fsanitize=address -fno-omit-frame-pointer")
+
+    # Add ASan flags and debugging info (-g) to C++ Debug build flags
+    set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} ${ASAN_FLAGS} -g")
+
+    # Add ASan flags to the linker for Debug build
+    set(CMAKE_LINKER_FLAGS_DEBUG "${CMAKE_LINKER_FLAGS_DEBUG} ${ASAN_FLAGS}")
+    
+endif()
+
+
 # Find package
 find_package(OpenSSL REQUIRED)
 

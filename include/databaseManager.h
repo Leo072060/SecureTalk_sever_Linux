@@ -19,7 +19,6 @@ class DatabaseManager
         SUCCESS = 0,
         DATABASE_ERROR,
         USER_ALREADY_EXISTS,
-        USER_VERIFICATION_SUCCESS,
         USER_NOT_FOUND,
         INVALID_PASSWORD
     };

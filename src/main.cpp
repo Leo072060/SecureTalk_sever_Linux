@@ -18,6 +18,7 @@ int  main()
 
     // Register message handlers
     NetworkManager::instance()->addMessageHandler(MsgType::LOGIN_REQUEST, HandleLoginRequest);
+    NetworkManager::instance()->addMessageHandler(MsgType::SIGN_UP_REQUEST, HandleSignUpRequest);
 
     // Start the network manager
     NetworkManager::instance()->start(7777);

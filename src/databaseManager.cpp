@@ -159,7 +159,7 @@ DatabaseManager::ResultCode DatabaseManager::authenticateUser(const std::string 
     {
         return INVALID_PASSWORD;
     }
-    return USER_VERIFICATION_SUCCESS;
+    return SUCCESS;
 }
 
 DatabaseManager::ResultCode DatabaseManager::deleteUser(const std::string &username)

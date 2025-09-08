@@ -598,3 +598,197 @@
 2025-09-08 00:29:55 [31m[ERROR][0m [139847493314368]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:326: Connection closed by peer
 2025-09-08 00:29:55 [32m[INFO] [0m [139847493314368]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:297: Closed connection to 127.0.0.1:54246
 2025-09-08 00:29:57 [32m[INFO] [0m [139847493314368]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 0
+2025-09-08 17:07:02 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 17:07:02 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 17:07:05 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:63563
+2025-09-08 17:07:07 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 17:07:10 [32m[INFO] [0m [140193061885504]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:54: Login failed: 7
+2025-09-08 17:07:15 [31m[ERROR][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:326: Connection closed by peer
+2025-09-08 17:07:15 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:297: Closed connection to 127.0.0.1:63563
+2025-09-08 17:07:17 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 0
+2025-09-08 17:07:28 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:63608
+2025-09-08 17:07:33 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 17:07:41 [31m[ERROR][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:326: Connection closed by peer
+2025-09-08 17:07:41 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:297: Closed connection to 127.0.0.1:63608
+2025-09-08 17:07:44 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 0
+2025-09-08 17:08:19 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:63728
+2025-09-08 17:08:24 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 17:08:25 [31m[ERROR][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:326: Connection closed by peer
+2025-09-08 17:08:25 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:297: Closed connection to 127.0.0.1:63728
+2025-09-08 17:08:30 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 0
+2025-09-08 17:31:48 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:51194
+2025-09-08 17:31:53 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 17:32:11 [32m[INFO] [0m [140193053492800]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:54: Login failed: 7
+2025-09-08 17:32:15 [31m[ERROR][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:326: Connection closed by peer
+2025-09-08 17:32:15 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:297: Closed connection to 127.0.0.1:51194
+2025-09-08 17:32:18 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 0
+2025-09-08 17:45:49 [32m[INFO] [0m [140110336517952]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 17:45:49 [32m[INFO] [0m [140110336517952]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 17:45:58 [32m[INFO] [0m [140110336517952]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:54064
+2025-09-08 17:46:00 [32m[INFO] [0m [140110336517952]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 17:46:19 [33m[WARN] [0m [140110328120896]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:500: No handler for message type: 8
+2025-09-08 17:48:22 [32m[INFO] [0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 17:48:22 [32m[INFO] [0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 17:48:24 [32m[INFO] [0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:54514
+2025-09-08 17:48:27 [32m[INFO] [0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 17:48:50 [31m[ERROR][0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:326: Connection closed by peer
+2025-09-08 17:48:50 [32m[INFO] [0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:297: Closed connection to 127.0.0.1:54514
+2025-09-08 17:48:53 [32m[INFO] [0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 0
+2025-09-08 17:50:29 [32m[INFO] [0m [139669426763584]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 17:50:29 [32m[INFO] [0m [139669426763584]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 17:50:35 [32m[INFO] [0m [139669426763584]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:54914
+2025-09-08 17:50:40 [32m[INFO] [0m [139669426763584]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 17:50:44 [32m[INFO] [0m [139669426759232]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:83: Sign up successful: LEO
+2025-09-08 17:50:56 [31m[ERROR][0m [139669426763584]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:326: Connection closed by peer
+2025-09-08 17:50:56 [32m[INFO] [0m [139669426763584]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:297: Closed connection to 127.0.0.1:54914
+2025-09-08 17:51:22 [32m[INFO] [0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 17:51:22 [32m[INFO] [0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 17:51:25 [32m[INFO] [0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:55130
+2025-09-08 17:51:27 [32m[INFO] [0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 17:51:38 [32m[INFO] [0m [140358658545216]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:88: Sign up failed: LEO already exists
+2025-09-08 17:51:52 [32m[INFO] [0m [140358650152512]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:83: Sign up successful: TMP
+2025-09-08 17:52:03 [32m[INFO] [0m [140358641759808]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:07 [32m[INFO] [0m [140358633367104]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:10 [32m[INFO] [0m [140358624974400]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:12 [32m[INFO] [0m [140358616581696]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:13 [32m[INFO] [0m [140358608188992]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:14 [32m[INFO] [0m [140358599796288]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:14 [32m[INFO] [0m [140358591403584]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:14 [32m[INFO] [0m [140358583010880]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:15 [32m[INFO] [0m [140358574618176]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:15 [32m[INFO] [0m [140358566225472]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:15 [32m[INFO] [0m [140358557832768]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:15 [32m[INFO] [0m [140358549440064]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:16 [32m[INFO] [0m [140358541047360]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:16 [32m[INFO] [0m [140358524261952]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:16 [32m[INFO] [0m [140358532654656]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:23 [32m[INFO] [0m [140358507476544]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:24 [32m[INFO] [0m [140358515869248]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:24 [32m[INFO] [0m [140358499083840]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:24 [32m[INFO] [0m [140358658545216]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:28 [32m[INFO] [0m [140358650152512]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:35 [32m[INFO] [0m [140358641759808]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:38 [32m[INFO] [0m [140358633367104]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:39 [32m[INFO] [0m [140358624974400]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:39 [32m[INFO] [0m [140358616581696]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:39 [32m[INFO] [0m [140358608188992]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:40 [32m[INFO] [0m [140358599796288]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:40 [32m[INFO] [0m [140358591403584]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:40 [32m[INFO] [0m [140358583010880]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:40 [32m[INFO] [0m [140358574618176]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:41 [32m[INFO] [0m [140358566225472]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:41 [32m[INFO] [0m [140358557832768]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:41 [32m[INFO] [0m [140358549440064]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:42 [32m[INFO] [0m [140358541047360]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:42 [32m[INFO] [0m [140358524261952]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:52 [31m[ERROR][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:326: Connection closed by peer
+2025-09-08 17:52:52 [32m[INFO] [0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:297: Closed connection to 127.0.0.1:55130
+2025-09-08 17:52:53 [32m[INFO] [0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 0
+2025-09-08 17:53:44 [32m[INFO] [0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:55461
+2025-09-08 17:53:48 [32m[INFO] [0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 17:53:53 [32m[INFO] [0m [140358532654656]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:55: Login failed: ABC
+2025-09-08 17:54:03 [32m[INFO] [0m [140358507476544]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:83: Sign up successful: ABC
+2025-09-08 17:54:09 [32m[INFO] [0m [140358515869248]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: ABC
+2025-09-08 17:54:12 [31m[ERROR][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:326: Connection closed by peer
+2025-09-08 17:54:12 [32m[INFO] [0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:297: Closed connection to 127.0.0.1:55461
+2025-09-08 18:31:49 [32m[INFO] [0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 18:31:49 [32m[INFO] [0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 18:31:52 [32m[INFO] [0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:62424
+2025-09-08 18:31:55 [32m[INFO] [0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 18:31:59 [32m[INFO] [0m [139650228348480]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:10 [32m[INFO] [0m [139650219955776]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:16 [32m[INFO] [0m [139650211563072]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:17 [32m[INFO] [0m [139650203170368]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:17 [32m[INFO] [0m [139650194777664]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:18 [32m[INFO] [0m [139650186384960]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:18 [31m[ERROR][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:326: Connection closed by peer
+2025-09-08 18:32:18 [32m[INFO] [0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:297: Closed connection to 127.0.0.1:62424
+2025-09-08 18:32:18 [33m[WARN] [0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:446: Client not found for message sending
+2025-09-08 18:32:20 [32m[INFO] [0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:62505
+2025-09-08 18:32:28 [32m[INFO] [0m [139650177992256]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:30 [32m[INFO] [0m [139650169599552]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:31 [32m[INFO] [0m [139650161206848]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:46 [32m[INFO] [0m [139650152814144]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:46 [32m[INFO] [0m [139650144421440]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:47 [32m[INFO] [0m [139650136028736]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:47 [32m[INFO] [0m [139650127636032]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:47 [32m[INFO] [0m [139650119243328]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:47 [32m[INFO] [0m [139650102457920]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:47 [32m[INFO] [0m [139650110850624]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:47 [32m[INFO] [0m [139650094065216]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:48 [32m[INFO] [0m [139650085672512]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:49 [31m[ERROR][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:326: Connection closed by peer
+2025-09-08 18:32:49 [32m[INFO] [0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:297: Closed connection to 127.0.0.1:62505
+2025-09-08 18:32:49 [33m[WARN] [0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:446: Client not found for message sending
+2025-09-08 18:32:50 [32m[INFO] [0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:62658
+2025-09-08 18:32:54 [32m[INFO] [0m [139650077279808]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:55: Login failed: DWA
+2025-09-08 18:33:01 [32m[INFO] [0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 18:33:01 [32m[INFO] [0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 18:33:06 [32m[INFO] [0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:62673
+2025-09-08 18:33:07 [32m[INFO] [0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 18:33:18 [32m[INFO] [0m [139688630883904]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:34:06 [32m[INFO] [0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:267: Connection timeout for 127.0.0.1:62673
+2025-09-08 18:34:06 [32m[INFO] [0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:297: Closed connection to 127.0.0.1:62673
+2025-09-08 18:35:14 [32m[INFO] [0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 18:35:14 [32m[INFO] [0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 18:35:17 [32m[INFO] [0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:63181
+2025-09-08 18:35:19 [32m[INFO] [0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 18:35:26 [32m[INFO] [0m [140541005342272]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:35:52 [31m[ERROR][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:326: Connection closed by peer
+2025-09-08 18:35:52 [32m[INFO] [0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:297: Closed connection to 127.0.0.1:63181
+2025-09-08 18:35:55 [32m[INFO] [0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 0
+2025-09-08 18:36:20 [32m[INFO] [0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:63360
+2025-09-08 18:36:21 [31m[ERROR][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:326: Connection closed by peer
+2025-09-08 18:36:21 [32m[INFO] [0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:297: Closed connection to 127.0.0.1:63360
+2025-09-08 18:38:47 [32m[INFO] [0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:63770
+2025-09-08 18:38:49 [32m[INFO] [0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 18:38:53 [32m[INFO] [0m [140540996949568]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:39:39 [32m[INFO] [0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:267: Connection timeout for 127.0.0.1:63770
+2025-09-08 18:39:39 [32m[INFO] [0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:297: Closed connection to 127.0.0.1:63770
+2025-09-08 18:43:36 [32m[INFO] [0m [140003479615296]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 18:43:36 [32m[INFO] [0m [140003479615296]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 18:43:39 [32m[INFO] [0m [140003479615296]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:64633
+2025-09-08 18:43:42 [32m[INFO] [0m [140003479615296]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 18:44:26 [32m[INFO] [0m [140003479615296]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:267: Connection timeout for 127.0.0.1:64633
+2025-09-08 18:44:26 [32m[INFO] [0m [140003479615296]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:301: Closed connection to 127.0.0.1:64633
+2025-09-08 18:48:58 [32m[INFO] [0m [140618401658688]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 18:48:58 [32m[INFO] [0m [140618401658688]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 18:49:01 [32m[INFO] [0m [140618401658688]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:49163
+2025-09-08 18:49:03 [32m[INFO] [0m [140618401658688]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 18:49:48 [32m[INFO] [0m [140618401658688]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:267: Connection timeout for 127.0.0.1:49163
+2025-09-08 18:49:48 [32m[INFO] [0m [140618401658688]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:301: Closed connection to 127.0.0.1:49163
+2025-09-08 18:50:26 [32m[INFO] [0m [139700470953792]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 18:50:26 [32m[INFO] [0m [139700470953792]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 18:54:37 [32m[INFO] [0m [139822030194496]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 18:54:37 [32m[INFO] [0m [139822030194496]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 19:03:14 [32m[INFO] [0m [140112372991808]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 19:03:14 [32m[INFO] [0m [140112372991808]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 19:03:19 [32m[INFO] [0m [140112372991808]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:51506
+2025-09-08 19:03:24 [32m[INFO] [0m [140112372991808]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 19:04:04 [32m[INFO] [0m [140112372991808]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:267: Connection timeout for 127.0.0.1:51506
+2025-09-08 19:04:04 [32m[INFO] [0m [140112372991808]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:301: Closed connection to 127.0.0.1:51506
+2025-09-08 19:04:11 [32m[INFO] [0m [140575324170048]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 19:04:11 [32m[INFO] [0m [140575324170048]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 19:04:18 [32m[INFO] [0m [140575324170048]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:51647
+2025-09-08 19:04:22 [32m[INFO] [0m [140575324170048]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 19:05:07 [32m[INFO] [0m [140575324170048]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:267: Connection timeout for 127.0.0.1:51647
+2025-09-08 19:05:07 [32m[INFO] [0m [140575324170048]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:301: Closed connection to 127.0.0.1:51647
+2025-09-08 19:08:08 [32m[INFO] [0m [140097681561408]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 19:08:08 [32m[INFO] [0m [140097681561408]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 19:08:15 [32m[INFO] [0m [140097681561408]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:52586
+2025-09-08 19:08:18 [32m[INFO] [0m [140097681561408]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 19:09:03 [32m[INFO] [0m [140097681561408]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:267: Connection timeout for 127.0.0.1:52586
+2025-09-08 19:09:03 [32m[INFO] [0m [140097681561408]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:301: Closed connection to 127.0.0.1:52586
+2025-09-08 19:11:41 [32m[INFO] [0m [140393291024320]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 19:11:41 [32m[INFO] [0m [140393291024320]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 19:11:47 [32m[INFO] [0m [140393291024320]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:53241
+2025-09-08 19:11:50 [32m[INFO] [0m [140393291024320]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 19:12:35 [32m[INFO] [0m [140393291024320]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:267: Connection timeout for 127.0.0.1:53241
+2025-09-08 19:12:35 [32m[INFO] [0m [140393291024320]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:301: Closed connection to 127.0.0.1:53241
+2025-09-08 19:24:48 [32m[INFO] [0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 19:24:48 [32m[INFO] [0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 19:24:55 [32m[INFO] [0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:55531
+2025-09-08 19:24:59 [32m[INFO] [0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:288: Number of clients: 1
+2025-09-08 19:25:43 [32m[INFO] [0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:268: Connection timeout for 127.0.0.1:55531
+2025-09-08 19:25:43 [32m[INFO] [0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:306: Closed connection to 127.0.0.1:55531
+2025-09-08 19:25:43 [32m[INFO] [0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:288: Number of clients: 0

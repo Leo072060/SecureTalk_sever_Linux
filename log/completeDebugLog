@@ -4130,3 +4130,1029 @@
 2025-09-08 00:30:48 [37m[DEBUG][0m [139847493314368]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
 2025-09-08 00:30:53 [37m[DEBUG][0m [139847493314368]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
 2025-09-08 00:30:58 [37m[DEBUG][0m [139847493314368]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:07:02 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 17:07:02 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 17:07:05 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:63563
+2025-09-08 17:07:07 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:07:07 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 17:07:10 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 20 bytes from 127.0.0.1:63563
+2025-09-08 17:07:10 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:63563
+2025-09-08 17:07:10 [32m[INFO] [0m [140193061885504]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:54: Login failed: 7
+2025-09-08 17:07:11 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:63563
+2025-09-08 17:07:12 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:07:15 [31m[ERROR][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:326: Connection closed by peer
+2025-09-08 17:07:15 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:297: Closed connection to 127.0.0.1:63563
+2025-09-08 17:07:17 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:07:17 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 0
+2025-09-08 17:07:22 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:07:27 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:07:28 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:63608
+2025-09-08 17:07:33 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:07:33 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 17:07:38 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:07:41 [31m[ERROR][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:326: Connection closed by peer
+2025-09-08 17:07:41 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:297: Closed connection to 127.0.0.1:63608
+2025-09-08 17:07:44 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:07:44 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 0
+2025-09-08 17:07:49 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:07:54 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:07:59 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:08:04 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:08:09 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:08:14 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:08:19 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:08:19 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:63728
+2025-09-08 17:08:24 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:08:24 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 17:08:25 [31m[ERROR][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:326: Connection closed by peer
+2025-09-08 17:08:25 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:297: Closed connection to 127.0.0.1:63728
+2025-09-08 17:08:30 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:08:30 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 0
+2025-09-08 17:08:35 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:08:40 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:08:45 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:08:50 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:08:55 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:09:00 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:09:05 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:09:10 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:09:15 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:09:20 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:09:25 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:09:30 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:09:35 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:09:40 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:09:45 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:09:50 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:09:55 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:10:00 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:10:05 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:10:10 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:10:15 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:10:20 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:10:25 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:10:30 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:10:35 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:10:40 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:10:45 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:10:50 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:10:55 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:11:00 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:11:05 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:11:10 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:11:15 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:11:20 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:11:25 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:11:30 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:11:35 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:11:40 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:11:45 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:11:50 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:11:55 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:12:00 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:12:05 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:12:10 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:12:15 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:12:20 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:12:25 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:12:30 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:12:35 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:12:40 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:12:45 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:12:50 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:12:55 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:13:00 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:13:05 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:13:10 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:13:15 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:13:20 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:13:25 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:13:30 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:13:36 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:13:41 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:13:46 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:13:51 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:13:56 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:14:01 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:14:06 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:14:11 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:14:16 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:14:21 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:14:26 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:14:31 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:14:36 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:14:41 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:14:46 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:14:51 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:14:56 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:15:01 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:15:06 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:15:11 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:15:16 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:15:21 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:15:26 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:15:31 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:15:36 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:15:41 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:15:46 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:15:51 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:15:56 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:16:01 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:16:06 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:16:11 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:16:16 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:16:21 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:16:26 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:16:31 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:16:36 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:16:41 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:16:46 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:16:51 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:16:56 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:17:01 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:17:06 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:17:11 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:17:16 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:17:21 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:17:26 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:17:31 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:17:36 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:17:41 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:17:46 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:17:51 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:17:56 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:18:01 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:18:06 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:18:11 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:18:16 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:18:21 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:18:26 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:18:31 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:18:36 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:18:41 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:18:46 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:18:51 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:18:56 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:19:01 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:19:06 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:19:11 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:19:16 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:19:21 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:19:26 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:19:31 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:19:36 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:19:41 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:19:46 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:19:51 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:19:56 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:20:01 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:20:06 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:20:11 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:20:16 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:20:21 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:20:26 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:20:31 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:20:36 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:20:41 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:20:46 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:20:51 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:20:56 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:21:01 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:21:06 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:21:12 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:21:17 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:21:22 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:21:27 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:21:32 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:21:37 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:21:42 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:21:47 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:21:52 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:21:57 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:22:02 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:22:07 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:22:12 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:22:17 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:22:22 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:22:27 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:22:32 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:22:37 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:22:42 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:22:47 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:22:52 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:22:57 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:23:02 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:23:07 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:23:12 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:23:17 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:23:22 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:23:27 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:23:32 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:23:37 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:23:42 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:23:47 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:23:52 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:23:57 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:24:02 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:24:07 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:24:12 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:24:17 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:24:22 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:24:27 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:24:32 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:24:37 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:24:42 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:24:47 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:24:52 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:24:57 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:25:02 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:25:07 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:25:12 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:25:17 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:25:22 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:25:27 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:25:32 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:25:37 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:25:42 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:25:47 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:25:52 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:25:57 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:26:02 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:26:07 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:26:12 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:26:17 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:26:22 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:26:27 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:26:32 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:26:37 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:26:42 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:26:47 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:26:52 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:26:57 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:27:02 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:27:07 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:27:12 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:27:17 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:27:22 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:27:27 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:27:32 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:27:37 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:27:42 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:27:47 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:27:52 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:27:57 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:28:02 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:28:07 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:28:12 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:28:17 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:28:22 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:28:27 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:28:32 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:28:37 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:28:42 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:28:47 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:28:52 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:28:57 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:29:02 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:29:07 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:29:12 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:29:17 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:29:22 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:29:27 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:29:32 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:29:37 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:29:42 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:29:47 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:29:52 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:29:57 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:30:02 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:30:07 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:30:12 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:30:17 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:30:22 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:30:27 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:30:32 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:30:37 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:30:42 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:30:47 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:30:52 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:30:57 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:31:02 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:31:07 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:31:12 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:31:17 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:31:22 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:31:27 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:31:33 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:31:38 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:31:43 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:31:48 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:31:48 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:51194
+2025-09-08 17:31:53 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:31:53 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 17:31:58 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:32:03 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:32:04 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:51194
+2025-09-08 17:32:08 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:32:08 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:51194
+2025-09-08 17:32:11 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 20 bytes from 127.0.0.1:51194
+2025-09-08 17:32:11 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:51194
+2025-09-08 17:32:11 [32m[INFO] [0m [140193053492800]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:54: Login failed: 7
+2025-09-08 17:32:11 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:51194
+2025-09-08 17:32:13 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:32:15 [31m[ERROR][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:326: Connection closed by peer
+2025-09-08 17:32:15 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:297: Closed connection to 127.0.0.1:51194
+2025-09-08 17:32:18 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:32:18 [32m[INFO] [0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 0
+2025-09-08 17:32:23 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:32:28 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:32:33 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:32:38 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:32:43 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:32:48 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:32:53 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:32:58 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:33:03 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:33:08 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:33:13 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:33:18 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:33:23 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:33:29 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:33:34 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:33:39 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:33:44 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:33:49 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:33:54 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:33:59 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:34:04 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:34:09 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:34:14 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:34:19 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:34:24 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:34:29 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:34:34 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:34:39 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:34:44 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:34:49 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:34:54 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:34:59 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:35:04 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:35:09 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:35:14 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:35:19 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:35:24 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:35:29 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:35:34 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:35:39 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:35:44 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:35:49 [37m[DEBUG][0m [140193061889856]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:45:49 [32m[INFO] [0m [140110336517952]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 17:45:49 [32m[INFO] [0m [140110336517952]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 17:45:54 [37m[DEBUG][0m [140110336517952]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:45:58 [32m[INFO] [0m [140110336517952]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:54064
+2025-09-08 17:46:00 [37m[DEBUG][0m [140110336517952]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:46:00 [32m[INFO] [0m [140110336517952]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 17:46:05 [37m[DEBUG][0m [140110336517952]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:46:10 [37m[DEBUG][0m [140110336517952]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:46:15 [37m[DEBUG][0m [140110336517952]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:46:16 [37m[DEBUG][0m [140110336517952]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:54064
+2025-09-08 17:46:19 [37m[DEBUG][0m [140110336517952]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:54064
+2025-09-08 17:46:19 [37m[DEBUG][0m [140110336517952]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:54064
+2025-09-08 17:46:19 [33m[WARN] [0m [140110328120896]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:500: No handler for message type: 8
+2025-09-08 17:46:20 [37m[DEBUG][0m [140110336517952]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:46:25 [37m[DEBUG][0m [140110336517952]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:46:30 [37m[DEBUG][0m [140110336517952]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:46:35 [37m[DEBUG][0m [140110336517952]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:46:35 [37m[DEBUG][0m [140110336517952]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:54064
+2025-09-08 17:46:40 [37m[DEBUG][0m [140110336517952]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:46:40 [37m[DEBUG][0m [140110336517952]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:54064
+2025-09-08 17:46:45 [37m[DEBUG][0m [140110336517952]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:46:45 [37m[DEBUG][0m [140110336517952]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:54064
+2025-09-08 17:46:50 [37m[DEBUG][0m [140110336517952]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:46:50 [37m[DEBUG][0m [140110336517952]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:54064
+2025-09-08 17:48:22 [32m[INFO] [0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 17:48:22 [32m[INFO] [0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 17:48:24 [32m[INFO] [0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:54514
+2025-09-08 17:48:26 [37m[DEBUG][0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:54514
+2025-09-08 17:48:26 [37m[DEBUG][0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:54514
+2025-09-08 17:48:27 [37m[DEBUG][0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:54514
+2025-09-08 17:48:27 [37m[DEBUG][0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:48:27 [32m[INFO] [0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 17:48:32 [37m[DEBUG][0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:48:37 [37m[DEBUG][0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:48:41 [37m[DEBUG][0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:54514
+2025-09-08 17:48:41 [37m[DEBUG][0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:54514
+2025-09-08 17:48:41 [37m[DEBUG][0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:54514
+2025-09-08 17:48:41 [37m[DEBUG][0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:54514
+2025-09-08 17:48:41 [37m[DEBUG][0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:54514
+2025-09-08 17:48:42 [37m[DEBUG][0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:54514
+2025-09-08 17:48:42 [37m[DEBUG][0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:48:43 [37m[DEBUG][0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:54514
+2025-09-08 17:48:43 [37m[DEBUG][0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:54514
+2025-09-08 17:48:44 [37m[DEBUG][0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:54514
+2025-09-08 17:48:48 [37m[DEBUG][0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:48:50 [31m[ERROR][0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:326: Connection closed by peer
+2025-09-08 17:48:50 [32m[INFO] [0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:297: Closed connection to 127.0.0.1:54514
+2025-09-08 17:48:53 [37m[DEBUG][0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:48:53 [32m[INFO] [0m [140609784612672]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 0
+2025-09-08 17:50:29 [32m[INFO] [0m [139669426763584]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 17:50:29 [32m[INFO] [0m [139669426763584]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 17:50:34 [37m[DEBUG][0m [139669426763584]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:50:35 [32m[INFO] [0m [139669426763584]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:54914
+2025-09-08 17:50:40 [37m[DEBUG][0m [139669426763584]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:50:40 [32m[INFO] [0m [139669426763584]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 17:50:44 [37m[DEBUG][0m [139669426763584]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:54914
+2025-09-08 17:50:44 [37m[DEBUG][0m [139669426763584]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:54914
+2025-09-08 17:50:44 [32m[INFO] [0m [139669426759232]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:83: Sign up successful: LEO
+2025-09-08 17:50:45 [37m[DEBUG][0m [139669426763584]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:54914
+2025-09-08 17:50:45 [37m[DEBUG][0m [139669426763584]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:50:50 [37m[DEBUG][0m [139669426763584]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:50:55 [37m[DEBUG][0m [139669426763584]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:50:56 [31m[ERROR][0m [139669426763584]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:326: Connection closed by peer
+2025-09-08 17:50:56 [32m[INFO] [0m [139669426763584]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:297: Closed connection to 127.0.0.1:54914
+2025-09-08 17:51:22 [32m[INFO] [0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 17:51:22 [32m[INFO] [0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 17:51:25 [32m[INFO] [0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:55130
+2025-09-08 17:51:27 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:51:27 [32m[INFO] [0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 17:51:32 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:51:37 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:51:38 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:51:38 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:51:38 [32m[INFO] [0m [140358658545216]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:88: Sign up failed: LEO already exists
+2025-09-08 17:51:39 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:51:42 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:51:47 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:51:52 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:51:52 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:51:52 [32m[INFO] [0m [140358650152512]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:83: Sign up successful: TMP
+2025-09-08 17:51:52 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:51:52 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:51:57 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:52:02 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:52:03 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:03 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:03 [32m[INFO] [0m [140358641759808]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:03 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:07 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:07 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:07 [32m[INFO] [0m [140358633367104]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:07 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:07 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:52:10 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:10 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:10 [32m[INFO] [0m [140358624974400]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:10 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:12 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:12 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:12 [32m[INFO] [0m [140358616581696]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:12 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:12 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:52:13 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:13 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:13 [32m[INFO] [0m [140358608188992]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:13 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:14 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:14 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:14 [32m[INFO] [0m [140358599796288]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:14 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:14 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:14 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:14 [32m[INFO] [0m [140358591403584]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:14 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:14 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:14 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:14 [32m[INFO] [0m [140358583010880]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:14 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:15 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:15 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:15 [32m[INFO] [0m [140358574618176]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:15 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:15 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:15 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:15 [32m[INFO] [0m [140358566225472]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:15 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:15 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:15 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:15 [32m[INFO] [0m [140358557832768]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:15 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:15 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:15 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:15 [32m[INFO] [0m [140358549440064]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:15 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:16 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:16 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:16 [32m[INFO] [0m [140358541047360]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:16 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:16 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:16 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:16 [32m[INFO] [0m [140358524261952]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:16 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:16 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:16 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:16 [32m[INFO] [0m [140358532654656]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:16 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:17 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:52:22 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:52:23 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:23 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:23 [32m[INFO] [0m [140358507476544]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:23 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:24 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:24 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:24 [32m[INFO] [0m [140358515869248]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:24 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:24 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:24 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:24 [32m[INFO] [0m [140358499083840]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:24 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:24 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:24 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:24 [32m[INFO] [0m [140358658545216]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:24 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:27 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:52:28 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:28 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:28 [32m[INFO] [0m [140358650152512]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:28 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:32 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:52:35 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:35 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:35 [32m[INFO] [0m [140358641759808]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:35 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:37 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:52:38 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:38 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:38 [32m[INFO] [0m [140358633367104]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:38 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:39 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:39 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:39 [32m[INFO] [0m [140358624974400]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:39 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:39 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:39 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:39 [32m[INFO] [0m [140358616581696]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:39 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:39 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:39 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:39 [32m[INFO] [0m [140358608188992]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:39 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:40 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:40 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:40 [32m[INFO] [0m [140358599796288]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:40 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:40 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:40 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:40 [32m[INFO] [0m [140358591403584]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:40 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:40 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:40 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:40 [32m[INFO] [0m [140358583010880]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:40 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:40 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:40 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:40 [32m[INFO] [0m [140358574618176]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:40 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:41 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:41 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:41 [32m[INFO] [0m [140358566225472]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:41 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:41 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:41 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:41 [32m[INFO] [0m [140358557832768]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:41 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:41 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:41 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:41 [32m[INFO] [0m [140358549440064]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:41 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:42 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:42 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:42 [32m[INFO] [0m [140358541047360]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:42 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:42 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:55130
+2025-09-08 17:52:42 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55130
+2025-09-08 17:52:42 [32m[INFO] [0m [140358524261952]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 17:52:42 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55130
+2025-09-08 17:52:42 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:52:47 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:52:52 [31m[ERROR][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:326: Connection closed by peer
+2025-09-08 17:52:52 [32m[INFO] [0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:297: Closed connection to 127.0.0.1:55130
+2025-09-08 17:52:53 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:52:53 [32m[INFO] [0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 0
+2025-09-08 17:52:58 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:53:03 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:53:08 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:53:13 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:53:18 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:53:23 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:53:28 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:53:33 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:53:38 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:53:43 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:53:44 [32m[INFO] [0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:55461
+2025-09-08 17:53:48 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:53:48 [32m[INFO] [0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 17:53:53 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 24 bytes from 127.0.0.1:55461
+2025-09-08 17:53:53 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55461
+2025-09-08 17:53:53 [32m[INFO] [0m [140358532654656]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:55: Login failed: ABC
+2025-09-08 17:53:54 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55461
+2025-09-08 17:53:54 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:53:59 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:54:03 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 24 bytes from 127.0.0.1:55461
+2025-09-08 17:54:03 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55461
+2025-09-08 17:54:03 [32m[INFO] [0m [140358507476544]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:83: Sign up successful: ABC
+2025-09-08 17:54:03 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55461
+2025-09-08 17:54:04 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:54:09 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 24 bytes from 127.0.0.1:55461
+2025-09-08 17:54:09 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:55461
+2025-09-08 17:54:09 [32m[INFO] [0m [140358515869248]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: ABC
+2025-09-08 17:54:09 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:55461
+2025-09-08 17:54:09 [37m[DEBUG][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 17:54:12 [31m[ERROR][0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:326: Connection closed by peer
+2025-09-08 17:54:12 [32m[INFO] [0m [140358658549568]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:297: Closed connection to 127.0.0.1:55461
+2025-09-08 18:31:49 [32m[INFO] [0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 18:31:49 [32m[INFO] [0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 18:31:52 [32m[INFO] [0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:62424
+2025-09-08 18:31:55 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:31:55 [32m[INFO] [0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 18:31:59 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:62424
+2025-09-08 18:31:59 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:62424
+2025-09-08 18:31:59 [32m[INFO] [0m [139650228348480]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:00 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:62424
+2025-09-08 18:32:00 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:32:05 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:32:10 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:62424
+2025-09-08 18:32:10 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:62424
+2025-09-08 18:32:10 [32m[INFO] [0m [139650219955776]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:11 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:62424
+2025-09-08 18:32:11 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:32:16 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:32:16 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:62424
+2025-09-08 18:32:16 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:62424
+2025-09-08 18:32:16 [32m[INFO] [0m [139650211563072]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:17 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:62424
+2025-09-08 18:32:17 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:62424
+2025-09-08 18:32:17 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:62424
+2025-09-08 18:32:17 [32m[INFO] [0m [139650203170368]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:17 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:62424
+2025-09-08 18:32:17 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:62424
+2025-09-08 18:32:17 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:62424
+2025-09-08 18:32:17 [32m[INFO] [0m [139650194777664]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:18 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:62424
+2025-09-08 18:32:18 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:62424
+2025-09-08 18:32:18 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:62424
+2025-09-08 18:32:18 [32m[INFO] [0m [139650186384960]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:18 [31m[ERROR][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:326: Connection closed by peer
+2025-09-08 18:32:18 [32m[INFO] [0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:297: Closed connection to 127.0.0.1:62424
+2025-09-08 18:32:18 [33m[WARN] [0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:446: Client not found for message sending
+2025-09-08 18:32:20 [32m[INFO] [0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:62505
+2025-09-08 18:32:22 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:32:27 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:32:28 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:62505
+2025-09-08 18:32:28 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:62505
+2025-09-08 18:32:28 [32m[INFO] [0m [139650177992256]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:28 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:62505
+2025-09-08 18:32:30 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:62505
+2025-09-08 18:32:30 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:62505
+2025-09-08 18:32:30 [32m[INFO] [0m [139650169599552]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:31 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:62505
+2025-09-08 18:32:31 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:62505
+2025-09-08 18:32:31 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:62505
+2025-09-08 18:32:31 [32m[INFO] [0m [139650161206848]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:32 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:62505
+2025-09-08 18:32:32 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:32:37 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:32:42 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:32:46 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:62505
+2025-09-08 18:32:46 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:62505
+2025-09-08 18:32:46 [32m[INFO] [0m [139650152814144]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:46 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:62505
+2025-09-08 18:32:46 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:62505
+2025-09-08 18:32:46 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:62505
+2025-09-08 18:32:46 [32m[INFO] [0m [139650144421440]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:47 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:62505
+2025-09-08 18:32:47 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:62505
+2025-09-08 18:32:47 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:62505
+2025-09-08 18:32:47 [32m[INFO] [0m [139650136028736]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:47 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:62505
+2025-09-08 18:32:47 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:62505
+2025-09-08 18:32:47 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:62505
+2025-09-08 18:32:47 [32m[INFO] [0m [139650127636032]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:47 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:62505
+2025-09-08 18:32:47 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:62505
+2025-09-08 18:32:47 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:62505
+2025-09-08 18:32:47 [32m[INFO] [0m [139650119243328]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:47 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:62505
+2025-09-08 18:32:47 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:62505
+2025-09-08 18:32:47 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:62505
+2025-09-08 18:32:47 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:32:47 [32m[INFO] [0m [139650102457920]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:47 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:62505
+2025-09-08 18:32:47 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:62505
+2025-09-08 18:32:47 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:62505
+2025-09-08 18:32:47 [32m[INFO] [0m [139650110850624]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:47 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:62505
+2025-09-08 18:32:47 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:62505
+2025-09-08 18:32:47 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:62505
+2025-09-08 18:32:47 [32m[INFO] [0m [139650094065216]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:48 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:62505
+2025-09-08 18:32:48 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:62505
+2025-09-08 18:32:48 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:62505
+2025-09-08 18:32:48 [32m[INFO] [0m [139650085672512]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:32:49 [31m[ERROR][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:326: Connection closed by peer
+2025-09-08 18:32:49 [32m[INFO] [0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:297: Closed connection to 127.0.0.1:62505
+2025-09-08 18:32:49 [33m[WARN] [0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:446: Client not found for message sending
+2025-09-08 18:32:50 [32m[INFO] [0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:62658
+2025-09-08 18:32:53 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:32:54 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 24 bytes from 127.0.0.1:62658
+2025-09-08 18:32:54 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:62658
+2025-09-08 18:32:54 [32m[INFO] [0m [139650077279808]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:55: Login failed: DWA
+2025-09-08 18:32:55 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:62658
+2025-09-08 18:32:58 [37m[DEBUG][0m [139650228352832]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:33:01 [32m[INFO] [0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 18:33:01 [32m[INFO] [0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 18:33:06 [32m[INFO] [0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:62673
+2025-09-08 18:33:07 [37m[DEBUG][0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:33:07 [32m[INFO] [0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 18:33:12 [37m[DEBUG][0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:33:17 [37m[DEBUG][0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:33:18 [37m[DEBUG][0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:62673
+2025-09-08 18:33:18 [37m[DEBUG][0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:62673
+2025-09-08 18:33:18 [32m[INFO] [0m [139688630883904]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:33:19 [37m[DEBUG][0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:62673
+2025-09-08 18:33:22 [37m[DEBUG][0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:33:27 [37m[DEBUG][0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:33:32 [37m[DEBUG][0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:33:37 [37m[DEBUG][0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:33:37 [37m[DEBUG][0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:62673
+2025-09-08 18:33:42 [37m[DEBUG][0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:33:42 [37m[DEBUG][0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:62673
+2025-09-08 18:33:47 [37m[DEBUG][0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:33:47 [37m[DEBUG][0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:62673
+2025-09-08 18:33:52 [37m[DEBUG][0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:33:52 [37m[DEBUG][0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:62673
+2025-09-08 18:33:57 [37m[DEBUG][0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:33:57 [37m[DEBUG][0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:62673
+2025-09-08 18:34:02 [37m[DEBUG][0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:34:02 [37m[DEBUG][0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:62673
+2025-09-08 18:34:06 [37m[DEBUG][0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:34:06 [32m[INFO] [0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:267: Connection timeout for 127.0.0.1:62673
+2025-09-08 18:34:06 [32m[INFO] [0m [139688630888256]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:297: Closed connection to 127.0.0.1:62673
+2025-09-08 18:35:14 [32m[INFO] [0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 18:35:14 [32m[INFO] [0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 18:35:17 [32m[INFO] [0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:63181
+2025-09-08 18:35:19 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:35:19 [32m[INFO] [0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 18:35:24 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:35:26 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:63181
+2025-09-08 18:35:26 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:63181
+2025-09-08 18:35:26 [32m[INFO] [0m [140541005342272]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:35:27 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:63181
+2025-09-08 18:35:29 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:35:34 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:35:39 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:35:44 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:35:44 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:63181
+2025-09-08 18:35:49 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:35:49 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:63181
+2025-09-08 18:35:52 [31m[ERROR][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:326: Connection closed by peer
+2025-09-08 18:35:52 [32m[INFO] [0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:297: Closed connection to 127.0.0.1:63181
+2025-09-08 18:35:55 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:35:55 [32m[INFO] [0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 0
+2025-09-08 18:36:00 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:36:05 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:36:10 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:36:14 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:36:19 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:36:20 [32m[INFO] [0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:63360
+2025-09-08 18:36:21 [31m[ERROR][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:326: Connection closed by peer
+2025-09-08 18:36:21 [32m[INFO] [0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:297: Closed connection to 127.0.0.1:63360
+2025-09-08 18:36:24 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:36:29 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:36:34 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:36:39 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:36:45 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:36:50 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:36:55 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:37:00 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:37:05 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:37:10 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:37:15 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:37:19 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:37:24 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:37:29 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:37:34 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:37:39 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:37:44 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:37:49 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:37:54 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:37:59 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:38:04 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:38:09 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:38:14 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:38:19 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:38:24 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:38:29 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:38:34 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:38:39 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:38:44 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:38:47 [32m[INFO] [0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:63770
+2025-09-08 18:38:49 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:38:49 [32m[INFO] [0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 18:38:53 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:321: Received 27 bytes from 127.0.0.1:63770
+2025-09-08 18:38:53 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:230: Received message from 127.0.0.1:63770
+2025-09-08 18:38:53 [32m[INFO] [0m [140540996949568]	 /home/twh/code/project/SecureTalk/src/msgHandler.cpp:49: Login successful: LEO
+2025-09-08 18:38:54 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:63770
+2025-09-08 18:38:54 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:38:59 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:39:04 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:39:09 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:39:09 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:63770
+2025-09-08 18:39:14 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:39:14 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:63770
+2025-09-08 18:39:19 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:39:19 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:63770
+2025-09-08 18:39:24 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:39:24 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:63770
+2025-09-08 18:39:29 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:39:29 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:63770
+2025-09-08 18:39:34 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:39:34 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:440: Sent message to 127.0.0.1:63770
+2025-09-08 18:39:39 [37m[DEBUG][0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:39:39 [32m[INFO] [0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:267: Connection timeout for 127.0.0.1:63770
+2025-09-08 18:39:39 [32m[INFO] [0m [140541005346624]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:297: Closed connection to 127.0.0.1:63770
+2025-09-08 18:43:36 [32m[INFO] [0m [140003479615296]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 18:43:36 [32m[INFO] [0m [140003479615296]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 18:43:39 [32m[INFO] [0m [140003479615296]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:64633
+2025-09-08 18:43:42 [37m[DEBUG][0m [140003479615296]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:43:42 [32m[INFO] [0m [140003479615296]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 18:43:47 [37m[DEBUG][0m [140003479615296]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:43:52 [37m[DEBUG][0m [140003479615296]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:43:57 [37m[DEBUG][0m [140003479615296]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:43:58 [37m[DEBUG][0m [140003479615296]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:64633
+2025-09-08 18:44:02 [37m[DEBUG][0m [140003479615296]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:44:03 [37m[DEBUG][0m [140003479615296]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:64633
+2025-09-08 18:44:07 [37m[DEBUG][0m [140003479615296]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:44:08 [37m[DEBUG][0m [140003479615296]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:64633
+2025-09-08 18:44:11 [37m[DEBUG][0m [140003479615296]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:44:12 [37m[DEBUG][0m [140003479615296]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:64633
+2025-09-08 18:44:16 [37m[DEBUG][0m [140003479615296]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:44:17 [37m[DEBUG][0m [140003479615296]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:64633
+2025-09-08 18:44:21 [37m[DEBUG][0m [140003479615296]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:44:22 [37m[DEBUG][0m [140003479615296]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:64633
+2025-09-08 18:44:26 [37m[DEBUG][0m [140003479615296]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:44:26 [32m[INFO] [0m [140003479615296]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:267: Connection timeout for 127.0.0.1:64633
+2025-09-08 18:44:26 [32m[INFO] [0m [140003479615296]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:301: Closed connection to 127.0.0.1:64633
+2025-09-08 18:48:58 [32m[INFO] [0m [140618401658688]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 18:48:58 [32m[INFO] [0m [140618401658688]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 18:49:01 [32m[INFO] [0m [140618401658688]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:49163
+2025-09-08 18:49:03 [37m[DEBUG][0m [140618401658688]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:49:03 [32m[INFO] [0m [140618401658688]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 18:49:08 [37m[DEBUG][0m [140618401658688]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:49:13 [37m[DEBUG][0m [140618401658688]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:49:18 [37m[DEBUG][0m [140618401658688]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:49:19 [37m[DEBUG][0m [140618401658688]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:49163
+2025-09-08 18:49:23 [37m[DEBUG][0m [140618401658688]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:49:24 [37m[DEBUG][0m [140618401658688]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:49163
+2025-09-08 18:49:28 [37m[DEBUG][0m [140618401658688]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:49:29 [37m[DEBUG][0m [140618401658688]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:49163
+2025-09-08 18:49:33 [37m[DEBUG][0m [140618401658688]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:49:34 [37m[DEBUG][0m [140618401658688]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:49163
+2025-09-08 18:49:38 [37m[DEBUG][0m [140618401658688]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:49:39 [37m[DEBUG][0m [140618401658688]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:49163
+2025-09-08 18:49:43 [37m[DEBUG][0m [140618401658688]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:49:44 [37m[DEBUG][0m [140618401658688]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:49163
+2025-09-08 18:49:48 [37m[DEBUG][0m [140618401658688]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:49:48 [32m[INFO] [0m [140618401658688]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:267: Connection timeout for 127.0.0.1:49163
+2025-09-08 18:49:48 [32m[INFO] [0m [140618401658688]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:301: Closed connection to 127.0.0.1:49163
+2025-09-08 18:50:26 [32m[INFO] [0m [139700470953792]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 18:50:26 [32m[INFO] [0m [139700470953792]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 18:50:31 [37m[DEBUG][0m [139700470953792]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 18:54:37 [32m[INFO] [0m [139822030194496]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 18:54:37 [32m[INFO] [0m [139822030194496]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 19:03:14 [32m[INFO] [0m [140112372991808]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 19:03:14 [32m[INFO] [0m [140112372991808]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 19:03:19 [37m[DEBUG][0m [140112372991808]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:03:19 [32m[INFO] [0m [140112372991808]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:51506
+2025-09-08 19:03:24 [37m[DEBUG][0m [140112372991808]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:03:24 [32m[INFO] [0m [140112372991808]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 19:03:29 [37m[DEBUG][0m [140112372991808]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:03:34 [37m[DEBUG][0m [140112372991808]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:03:35 [37m[DEBUG][0m [140112372991808]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:51506
+2025-09-08 19:03:39 [37m[DEBUG][0m [140112372991808]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:03:39 [37m[DEBUG][0m [140112372991808]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:51506
+2025-09-08 19:03:44 [37m[DEBUG][0m [140112372991808]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:03:44 [37m[DEBUG][0m [140112372991808]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:51506
+2025-09-08 19:03:49 [37m[DEBUG][0m [140112372991808]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:03:49 [37m[DEBUG][0m [140112372991808]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:51506
+2025-09-08 19:03:54 [37m[DEBUG][0m [140112372991808]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:03:54 [37m[DEBUG][0m [140112372991808]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:51506
+2025-09-08 19:03:59 [37m[DEBUG][0m [140112372991808]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:03:59 [37m[DEBUG][0m [140112372991808]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:51506
+2025-09-08 19:04:04 [37m[DEBUG][0m [140112372991808]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:04:04 [32m[INFO] [0m [140112372991808]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:267: Connection timeout for 127.0.0.1:51506
+2025-09-08 19:04:04 [32m[INFO] [0m [140112372991808]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:301: Closed connection to 127.0.0.1:51506
+2025-09-08 19:04:11 [32m[INFO] [0m [140575324170048]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 19:04:11 [32m[INFO] [0m [140575324170048]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 19:04:17 [37m[DEBUG][0m [140575324170048]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:04:18 [32m[INFO] [0m [140575324170048]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:51647
+2025-09-08 19:04:22 [37m[DEBUG][0m [140575324170048]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:04:22 [32m[INFO] [0m [140575324170048]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 19:04:27 [37m[DEBUG][0m [140575324170048]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:04:32 [37m[DEBUG][0m [140575324170048]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:04:37 [37m[DEBUG][0m [140575324170048]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:04:38 [37m[DEBUG][0m [140575324170048]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:51647
+2025-09-08 19:04:42 [37m[DEBUG][0m [140575324170048]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:04:43 [37m[DEBUG][0m [140575324170048]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:51647
+2025-09-08 19:04:47 [37m[DEBUG][0m [140575324170048]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:04:48 [37m[DEBUG][0m [140575324170048]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:51647
+2025-09-08 19:04:52 [37m[DEBUG][0m [140575324170048]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:04:53 [37m[DEBUG][0m [140575324170048]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:51647
+2025-09-08 19:04:57 [37m[DEBUG][0m [140575324170048]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:04:58 [37m[DEBUG][0m [140575324170048]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:51647
+2025-09-08 19:05:02 [37m[DEBUG][0m [140575324170048]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:05:03 [37m[DEBUG][0m [140575324170048]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:51647
+2025-09-08 19:05:07 [37m[DEBUG][0m [140575324170048]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:05:07 [32m[INFO] [0m [140575324170048]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:267: Connection timeout for 127.0.0.1:51647
+2025-09-08 19:05:07 [32m[INFO] [0m [140575324170048]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:301: Closed connection to 127.0.0.1:51647
+2025-09-08 19:08:08 [32m[INFO] [0m [140097681561408]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 19:08:08 [32m[INFO] [0m [140097681561408]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 19:08:13 [37m[DEBUG][0m [140097681561408]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:08:15 [32m[INFO] [0m [140097681561408]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:52586
+2025-09-08 19:08:18 [37m[DEBUG][0m [140097681561408]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:08:18 [32m[INFO] [0m [140097681561408]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 19:08:23 [37m[DEBUG][0m [140097681561408]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:08:28 [37m[DEBUG][0m [140097681561408]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:08:33 [37m[DEBUG][0m [140097681561408]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:08:34 [37m[DEBUG][0m [140097681561408]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:52586
+2025-09-08 19:08:38 [37m[DEBUG][0m [140097681561408]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:08:39 [37m[DEBUG][0m [140097681561408]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:52586
+2025-09-08 19:08:43 [37m[DEBUG][0m [140097681561408]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:08:44 [37m[DEBUG][0m [140097681561408]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:52586
+2025-09-08 19:08:48 [37m[DEBUG][0m [140097681561408]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:08:49 [37m[DEBUG][0m [140097681561408]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:52586
+2025-09-08 19:08:53 [37m[DEBUG][0m [140097681561408]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:08:54 [37m[DEBUG][0m [140097681561408]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:52586
+2025-09-08 19:08:58 [37m[DEBUG][0m [140097681561408]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:08:59 [37m[DEBUG][0m [140097681561408]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:52586
+2025-09-08 19:09:03 [37m[DEBUG][0m [140097681561408]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:09:03 [32m[INFO] [0m [140097681561408]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:267: Connection timeout for 127.0.0.1:52586
+2025-09-08 19:09:03 [32m[INFO] [0m [140097681561408]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:301: Closed connection to 127.0.0.1:52586
+2025-09-08 19:11:41 [32m[INFO] [0m [140393291024320]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 19:11:41 [32m[INFO] [0m [140393291024320]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 19:11:46 [37m[DEBUG][0m [140393291024320]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:11:47 [32m[INFO] [0m [140393291024320]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:53241
+2025-09-08 19:11:50 [37m[DEBUG][0m [140393291024320]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:11:50 [32m[INFO] [0m [140393291024320]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:283: Number of clients: 1
+2025-09-08 19:11:55 [37m[DEBUG][0m [140393291024320]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:12:00 [37m[DEBUG][0m [140393291024320]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:12:05 [37m[DEBUG][0m [140393291024320]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:12:07 [37m[DEBUG][0m [140393291024320]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:53241
+2025-09-08 19:12:11 [37m[DEBUG][0m [140393291024320]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:12:12 [37m[DEBUG][0m [140393291024320]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:53241
+2025-09-08 19:12:16 [37m[DEBUG][0m [140393291024320]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:12:17 [37m[DEBUG][0m [140393291024320]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:53241
+2025-09-08 19:12:20 [37m[DEBUG][0m [140393291024320]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:12:21 [37m[DEBUG][0m [140393291024320]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:53241
+2025-09-08 19:12:25 [37m[DEBUG][0m [140393291024320]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:12:26 [37m[DEBUG][0m [140393291024320]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:53241
+2025-09-08 19:12:30 [37m[DEBUG][0m [140393291024320]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:12:31 [37m[DEBUG][0m [140393291024320]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:444: Sent message to 127.0.0.1:53241
+2025-09-08 19:12:35 [37m[DEBUG][0m [140393291024320]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:12:35 [32m[INFO] [0m [140393291024320]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:267: Connection timeout for 127.0.0.1:53241
+2025-09-08 19:12:35 [32m[INFO] [0m [140393291024320]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:301: Closed connection to 127.0.0.1:53241
+2025-09-08 19:24:48 [32m[INFO] [0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/main.cpp:14: Hello, this is SecureTalk server!
+2025-09-08 19:24:48 [32m[INFO] [0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:147: Server started on port 7777
+2025-09-08 19:24:53 [37m[DEBUG][0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:24:55 [32m[INFO] [0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:211: New connection from 127.0.0.1:55531
+2025-09-08 19:24:59 [37m[DEBUG][0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:24:59 [32m[INFO] [0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:288: Number of clients: 1
+2025-09-08 19:25:04 [37m[DEBUG][0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:25:08 [37m[DEBUG][0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:25:14 [37m[DEBUG][0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:25:15 [37m[DEBUG][0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:449: Sent message to 127.0.0.1:55531
+2025-09-08 19:25:19 [37m[DEBUG][0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:25:19 [37m[DEBUG][0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:449: Sent message to 127.0.0.1:55531
+2025-09-08 19:25:24 [37m[DEBUG][0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:25:24 [37m[DEBUG][0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:449: Sent message to 127.0.0.1:55531
+2025-09-08 19:25:29 [37m[DEBUG][0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:25:29 [37m[DEBUG][0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:449: Sent message to 127.0.0.1:55531
+2025-09-08 19:25:34 [37m[DEBUG][0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:25:34 [37m[DEBUG][0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:449: Sent message to 127.0.0.1:55531
+2025-09-08 19:25:38 [37m[DEBUG][0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:25:38 [37m[DEBUG][0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:449: Sent message to 127.0.0.1:55531
+2025-09-08 19:25:43 [37m[DEBUG][0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:25:43 [32m[INFO] [0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:268: Connection timeout for 127.0.0.1:55531
+2025-09-08 19:25:43 [32m[INFO] [0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:306: Closed connection to 127.0.0.1:55531
+2025-09-08 19:25:43 [32m[INFO] [0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:288: Number of clients: 0
+2025-09-08 19:25:48 [37m[DEBUG][0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:25:53 [37m[DEBUG][0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:25:58 [37m[DEBUG][0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:26:03 [37m[DEBUG][0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:26:08 [37m[DEBUG][0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:26:13 [37m[DEBUG][0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:26:18 [37m[DEBUG][0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:26:23 [37m[DEBUG][0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:26:28 [37m[DEBUG][0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:26:33 [37m[DEBUG][0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
+2025-09-08 19:26:38 [37m[DEBUG][0m [139645874108352]	 /home/twh/code/project/SecureTalk/src/networkManager.cpp:257: Checking heartbeats and timeouts
